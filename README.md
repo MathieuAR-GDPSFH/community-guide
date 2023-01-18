@@ -1,5 +1,3 @@
-# Welcome to the Community Guide!
+This is the (extremely incomplete) "Community Guide" for GDPSFH.
 
-This site is currently work in progress and has yet to list a bunch of features...
-
-For the time being, if you didn't find anything that could help you in this page, please check the [#community-help](https://canary.discord.com/channels/743013350446989442/1061355081741631558) channel for further assistance.
+As GDPSFH is now permanently terminated, the guide will no longer be maintained.
