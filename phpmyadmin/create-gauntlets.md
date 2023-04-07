@@ -11,8 +11,8 @@ description: >-
 3. Look for "gauntlets"
 4. Open the insert tab
 5. Fill in these things:
-    * ID: This is the gauntlet id (1: fire, 2: ice, 3: poison, ...)
-    * level1-5: These are the level ids (note: they will not appear in the order you put them in gd, they will appear in difficulty order)
+    * ID: This is the gauntlet ID. (1: fire, 2: ice, 3: poison, ...)
+    * level1-5: These are the level IDs. (note: they will not appear in the order you put them in gd, they will appear in difficulty order)
 6. Click on "Go"
 
 If you're confused, here's a video:
