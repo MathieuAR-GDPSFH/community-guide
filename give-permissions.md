@@ -23,6 +23,23 @@ This guide will cover how to give users moderator or custom permissions using pf
 | CommandVerifycoins | Allows you to use the !verifycoins command|
 | CommandDaily | Allows you to use the !daily command|
 | CommandWeekly | Allows you to use the !weekly command|
+| CommandDelete | Allows you to use the !delete command which deletes levels|
+| CommandSetacc | Allows you to use the !setacc command which lets you set the account who made the level|
+| CommandRenameOwn | Allows you to use the !rename command on thier **own** levels|
+| CommandRenameAll | Allows you to use the !rename command on **all** levels|
+| CommandPassOwn | Allows you to use the !pass command which lets you change passwords on **your** own levels only|
+| CommandPassAll | Allows you to use the !pass command on **all** levels|
+| Commanddescriptionown | Allows you to use the !description command on your **own** levels|
+| Commanddescriptionall| Allows you to use the !description command on **all** levels|
+
+
+
+
+
+
+
+
+
 
 
 
