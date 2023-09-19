@@ -17,4 +17,5 @@ This guide will cover how to give users moderator or custom permissions using pf
 | Permission  | Description |
 | ------------- | ------------- |
 | CommandRate  | Allows you to use the !rate command |
-| Content Cell  | Content Cell  |
+| CommandFeature | Allows you to use the !feature command|
+| CommandEpic |  | Allows you to use the  !epic command |
