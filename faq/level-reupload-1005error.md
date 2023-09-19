@@ -1,4 +1,4 @@
-# Error 1005 when trying to reupload a level to my GDPS
+# Error 1005/1006 when trying to reupload a level to my GDPS
 
 This error is because **GDPSFH IP has been blocked** for downloading levels on the Robtop server and due levels cannot be re-uploaded, giving error 1005. 
 
