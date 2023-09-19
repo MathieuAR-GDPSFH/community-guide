@@ -33,7 +33,8 @@ This guide will cover how to give users moderator or custom permissions using pf
 | Commanddescriptionall| Allows you to use the !description command on **all** levels|
 | CommandPublicOwn | Allows you to use the !public command on your **own** levels|
 | CommandPublicAll | Allows you to use the !public command on **all** levels|
-| CommandUnlist | Allows you to use the !unlist command on your **own** levels|
+| CommandUnlistOwn | Allows you to use the !unlist command on your **own** levels|
+| CommandUnlistAll | Allows you to use the !unlist command on **all** levels|
 
 
 
