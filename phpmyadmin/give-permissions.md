@@ -46,8 +46,21 @@ This guide will cover how to give users moderator or custom permissions using pf
 | actionRequestMod | allows you to use the "Req" button in settings|
 | actionDeleteComments | Allows you to delete comments from levels|
 | toolleaderboardsBan | Allows you to ban people from the leaderboards|
+| toolpackcreate | Allows you to make Map Packs using tools|
+| toolsModActions | allows you to see mod actions, like leaderboard bans|
+| toolsSuggestList | Allows you to see suggested levels from mods|
+| CommentColor| | lets you change comment colors, Use HEX code colors|
+| modBadge | 1 = Mod, 2 = Elder Mod|
 
-
+7. When done, press "Go"
+8. Go to "role assign"
+9. Click Insert
+10. Fill out the information
+      • AssignID: Optioanl, just put any number
+      • RoleID: the ID of the role you want to assign
+      • AccountID: The ID of the account receiving the role
+11. Press "Go"
+12. Congratulations, You've made permission, Enter the gdps and press "Req" to get them in game! 
 
 
 
