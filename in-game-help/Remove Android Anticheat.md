@@ -1,7 +1,7 @@
 # How to remove The Anticheat from Android GDPS
 
 It is very annoying being kicked out of a rated level 
-thats above 30s and rated pver 2 stars.
+thats above 30s and rated over 2 stars.
 This, is the guide everyone looks for.
 You will need the following: 
 A hex editor.
