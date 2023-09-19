@@ -24,3 +24,8 @@ Now save the file.
 Replace old libcocos2dcpp.so file with new one you just edited.
 
 Now you have removed the anticheat that keeps kicking you out!
+[![If you didn't understand, heres a video](https://img.youtube.com/vi/aWI9ZLuQvH8/hqdefault.jpg)](https://www.youtube.com/embed/aWI9ZLuQvH8)
+
+[<img src="https://img.youtube.com/vi/aWI9ZLuQvH8/hqdefault.jpg" width="600" height="300"
+/>](https://www.youtube.com/embed/aWI9ZLuQvH8)
+
