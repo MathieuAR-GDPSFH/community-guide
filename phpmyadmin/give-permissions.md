@@ -35,6 +35,24 @@ This guide will cover how to give users moderator or custom permissions using pf
 | CommandPublicAll | Allows you to use the !public command on **all** levels|
 | CommandUnlistOwn | Allows you to use the !unlist command on your **own** levels|
 | CommandUnlistAll | Allows you to use the !unlist command on **all** levels|
+| CommandShareCpOwn | Allows you to use the !sharecp command on your **own** levels|
+| CommandShareCPAll | Allows you to use the !sharecp command on **all** levels|
+| CommandSongOwn | Allows you to use the !song command on your **own** levels|
+| CommandSongAll | Allows you to use the !song command on **all** levels|
+| actoonRateDemon | Allows you to rate the difficulties of demons (User)|
+| actionRateStars | Allows you to rate the stars of levels (User)|
+| actionratedifficulty | Allows you to rate the difficulty of levels|
+| actionSuggestStars | Allows you to use the moderator button to suggest, not rate stars|
+| actionRequestMod | allows you to use the "Req" button in settings|
+| actionDeleteComments | Allows you to delete comments from levels|
+| toolleaderboardsBan | Allows you to ban people from the leaderboards|
+
+
+
+
+
+
+
 
 
 
