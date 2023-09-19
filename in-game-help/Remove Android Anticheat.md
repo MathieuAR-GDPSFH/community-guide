@@ -23,4 +23,4 @@ Now save the file.
 # Now just replace the old file with the new one
 Replace old libcocos2dcpp.so file with new one you just edited.
 
-Now you have remover the anticheat that keeps kicking you out!
+Now you have removed the anticheat that keeps kicking you out!
