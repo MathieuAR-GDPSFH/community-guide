@@ -31,11 +31,10 @@
 • Roleassign: The way to assign a role to your account in PhpMyAdmin, after creating a role.
 • Roles: Lists every created role, you can create roles here too.
 • Songs: Lists all reuploaded songs in the GDPS.
-• Suggest: Lists levels moderators have used suggest rate on and haven't rated
-  ^^^ (Not working I don't think because giving a role suggest rate, allows the user to rate levels with the moderator button).
+• Suggest: Lists levels moderators have used suggest rate on.(only works if you've configured your role correctly).
 • Users: Lists all the users, gives you user ID, IP, and so much more.
   You can star only leaderboard ban someone in this table by setting isBanned to 1 but leaving isCreatorBanned at 0.
   There's a lot of info in this table.
 ___________________________________________________________________________________________
 
-Hope this helped
+Hope this helped.
