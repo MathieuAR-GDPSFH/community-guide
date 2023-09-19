@@ -18,4 +18,4 @@ This guide will cover how to give users moderator or custom permissions using pf
 | ------------- | ------------- |
 | CommandRate  | Allows you to use the !rate command |
 | CommandFeature | Allows you to use the !feature command|
-| CommandEpic |  | Allows you to use the  !epic command |
+| CommandEpic || Allows you to use the  !epic command |
