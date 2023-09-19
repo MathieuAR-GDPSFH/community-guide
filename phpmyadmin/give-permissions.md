@@ -49,7 +49,7 @@ This guide will cover how to give users moderator or custom permissions using pf
 | toolpackcreate | Allows you to make Map Packs using tools|
 | toolsModActions | allows you to see mod actions, like leaderboard bans|
 | toolsSuggestList | Allows you to see suggested levels from mods|
-| CommentColor| | lets you change comment colors, Use HEX code colors|
+| CommentColor | lets you change comment colors, Use HEX code colors|
 | modBadge | 1 = Mod, 2 = Elder Mod|
 
 7. When done, press "Go"
