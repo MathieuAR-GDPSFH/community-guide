@@ -7,9 +7,9 @@ This guide will cover how to give users moderator or custom permissions using pf
 3. Look for "roles"
 4. Open the Insert Tab
 5. Fill in these things
-• roleID: The ID of the role
-• priority: the priority the role has over other roles
-• roleName: the name of the role (Note: it will not display im game)
+- roleID: The ID of the role
+- priority: the priority the role has over other roles
+- roleName: the name of the role (Note: it will not display im game)
 6. setup your pernissions, the table below explains them (NOTE: Set **1** to grant the permission and **0** to revoke them
 
 ## Permissions
@@ -56,28 +56,8 @@ This guide will cover how to give users moderator or custom permissions using pf
 8. Go to "role assign"
 9. Click Insert
 10. Fill out the information
-• AssignID: Optioanl, just put any number
-• RoleID: the ID of the role you want to assign
-• AccountID: The ID of the account receiving the role
+- AssignID: Optioanl, just put any number
+- RoleID: the ID of the role you want to assign
+- AccountID: The ID of the account receiving the role
 12. Press "Go"
 13. Congratulations, You've made permission, Enter the gdps and press "Req" to get them in game! 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
