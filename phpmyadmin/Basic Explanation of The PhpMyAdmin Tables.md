@@ -6,9 +6,9 @@
 • Accounts: What the name says, lists all the accounts, their account ID's, usernames and if the account is active. 
   Password section gives you password hash which doesn't actually give you the account password.
 • Actions: This table lists actions such as mod actions, also lists other actions such as a disabled account.
-• Actions_downloads: this table tells you what user ID downloaded what level ID.
-• Actions_likes: The table tells you what user ID liked what level ID.
-• Bannedips: Bans an IP that you insert.
+• Actions_downloads: this table counts downloads per IP per level.
+• Actions_likes: The table counts likes per IP per level.
+• Bannedips: To IP ban someone from leaderboards.
 • Blocks: lists who has blocked who in your GDPS.
 • Comments: Lists every comment, tells you what account ID uploaded the comment, and what level ID it was commented on.
   Tells you the comment ID too.
