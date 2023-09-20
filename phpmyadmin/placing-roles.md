@@ -8,7 +8,7 @@ description: >-
 ## Placing role structure
 
 - **assignID:** Add a unique number to the assing (optional)
-- **roleID:** ID of the role you want to place (from the "roles" table)
+- **roleID:** [ID of the role](create-roles.md) you want to place (from the "roles" table)
 - **accountID:** ID of the account user you want to place (from the "accounts" table)
 
 ## Placing a role to a user

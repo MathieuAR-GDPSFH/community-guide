@@ -15,11 +15,11 @@
 ## 🔐 phpMyAdmin
 
 * [Site Structure](phpmyadmin/site-structure.md)
-* [Change Default Downloads/Likes](phpmyadmin/change-default-downloads-likes.md)
 * [Create Gauntlets](phpmyadmin/create-gauntlets.md)
 * [Create Roles](phpmyadmin/create-roles.md)
-* [Place roles](phpmyadmin/placing-roles.md)
-* [Place special moderator functions](phpmyadmin/create-modip.md)
+* [Place Roles](phpmyadmin/placing-roles.md)
+* [Place Special Moderator Functions](phpmyadmin/create-modip.md)
+* [Change Default Downloads/Likes](phpmyadmin/change-default-downloads-likes.md)
 
 ## 🔗 External tools
 
