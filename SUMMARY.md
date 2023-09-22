@@ -15,3 +15,8 @@
 * [Site Structure](phpmyadmin/site-structure.md)
 * [Change Default Downloads/Likes](phpmyadmin/change-default-downloads-likes.md)
 * [Create Gauntlets](phpmyadmin/create-gauntlets.md)
+
+## 🤓 Nerd
+
+* [how autoban.php works]
+(Nerd/how-autoban-php-works.md)
