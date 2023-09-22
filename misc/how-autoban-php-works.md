@@ -12,7 +12,7 @@ $query = $db->prepare("too much code")
 ```
 ![Full Code](../.gitbook/assets/db-prepare.png)
 This is the most complex part of the code (and probably most unoptimized)
-but all it really does is calculate all the starts in the gdps, all the user coins and all of the demons. It also calculates the gauntlets and map pack stars.
+but all it really does is calculate all the stars in the gdps, all the user coins and all of the demons. It also calculates the gauntlets and map pack stars.
 # Comparing users with calculated stars
 ```php
 $query->execute();
