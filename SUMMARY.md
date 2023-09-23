@@ -26,6 +26,7 @@
 ## 🗿 Miscellaneous Information
 
 * [How Autoban works](misc/how-autoban-php-works.md)
+* [How to use every tool](misc/how-to-use-tools.md)
 
 ## 🔗 External Tools
 
