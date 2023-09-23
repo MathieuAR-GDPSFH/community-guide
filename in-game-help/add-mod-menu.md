@@ -1,7 +1,5 @@
-| description  |
-| This guide will teach you how to add a mod menu to your GDPS  |
-
 # Adding a Mod Menu to your GDPS
+This guide will teach you how to add a Mod Menu to your GDPS on mobile and PC!
 
 ## Android 
 To add a mod menu to your GDPS you must have the following. 
