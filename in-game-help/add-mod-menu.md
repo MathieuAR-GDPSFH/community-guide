@@ -13,25 +13,26 @@ To add a mod menu to your GDPS you must have the following.
 3. Find the APK of the **Mod Menu**
 4. Click "Simple Edit"
 5. Click on "Lib"
-6. Click on "armebi-v7a"
-7. Save "libcocos2dcpp.so"
-8. Open your Hex Editor
-9. Find "libcocos2dcpp.so" and open it
-10. Search for "www.boomlings.com/database" **Make sure your searching by a string and NOT a Hex Fragment**
-11. Than tap "Find and Replace" and replace "www.boomlings.com/database" with your GDPS link (Findable on your GDPS panel
+![](../.gitbook/assets/Screenshot_20230923-121906-751.png)
+7. Click on "armebi-v7a"
+8. Save "libcocos2dcpp.so"
+9. Open your Hex Editor
+10. Find "libcocos2dcpp.so" and open it
+11. Search for "www.boomlings.com/database" **Make sure your searching by a string and NOT a Hex Fragment**
+12. Than tap "Find and Replace" and replace "www.boomlings.com/database" with your GDPS link (Findable on your GDPS panel
     For example, if your GDPS link is "epicgdps.ps.fhgdps.com" than you'll change "www.boomlings.com/database" to "epicgdps.ps.fhgdps.com"
-12. Open the Base64 Decoder and type "http://www.boomlings.com/database" and press "encode"
-13. Copy the result and search for it in your Hex Editor
-14. Go back to the Base64 Decoder and type your GDPS link into the box and press "encode"
-15. Copy the result and find and replace "aHR0cDovL3d3dy5ib29tbGluZ3MuY29tL2RhdGFiYXNl" with the GDPS's encoded link
-16. Save the File
-17. Open APK Editor
-18. Click on the APK of the **Mod Menu**
-19. Click "Simple Edit"
-20. Click on "lib"
-21. Click on "armebi-v7a"
-22. Replace the "libcocos2dcpp.so" with the modified one you created
-23. Click "Save"
+13. Open the Base64 Decoder and type "http://www.boomlings.com/database" and press "encode"
+14. Copy the result and search for it in your Hex Editor
+15. Go back to the Base64 Decoder and type your GDPS link into the box and press "encode"
+16. Copy the result and find and replace "aHR0cDovL3d3dy5ib29tbGluZ3MuY29tL2RhdGFiYXNl" with the GDPS's encoded link
+17. Save the File
+18. Open APK Editor
+19. Click on the APK of the **Mod Menu**
+20. Click "Simple Edit"
+21. Click on "lib"
+22. Click on "armebi-v7a"
+23. Replace the "libcocos2dcpp.so" with the modified one you created
+24. Click "Save"
 
 Your Done! Your GDPS should now have the mod menu when you open it. optioanlly you can do the following to fix the apk's name
 
