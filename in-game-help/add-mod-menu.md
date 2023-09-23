@@ -19,7 +19,7 @@ To add a mod menu to your GDPS you must have the following.
 7. Save "libcocos2dcpp.so"
 8. Open your Hex Editor
 9. Find "libcocos2dcpp.so" and open it
-10. Search for "www.boomlings.com/database **Make sure your searching by a string and NOT a Hex Fragment**
+10. Search for "www.boomlings.com/database" **Make sure your searching by a string and NOT a Hex Fragment**
 11. Than tap "Find and Replace" and replace "www.boomlings.com/database" with your GDPS link (Findable on your GDPS panel
     For example, if your GDPS link is "epicgdps.ps.fhgdps.com" than you'll change "www.boomlings.com/database" to "epicgdps.ps.fhgdps.com"
 12. Open the Base64 Decoder and type "http://www.boomlings.com/database" and press "encode"
