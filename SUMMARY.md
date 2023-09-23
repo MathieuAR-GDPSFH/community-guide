@@ -21,7 +21,11 @@
 * [Place roles](phpmyadmin/placing-roles.md)
 * [Place special moderator functions](phpmyadmin/create-modip.md)
 
-## 🔗 External tools
+## 🗿 Miscellaneous Information
+
+* [How Autoban works](misc/how-autoban-php-works.md)
+
+## 🔗 External Tools
 
 * [Protect your GDPS from exploits and raids](external-tools/tool-AntiRaidExploit.md)
 * [Better dashboard](external-tools/tool-NewDashboard.md)
