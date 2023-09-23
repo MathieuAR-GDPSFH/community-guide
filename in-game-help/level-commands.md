@@ -21,7 +21,7 @@ You should get a false error when posting those, which _usually_ means that usin
 | **!verifycoins** (Mode) |  Set if coins of the level are collectable | **Mode:** 1 = Verified (Silver coins), 0 = Not verified (Bronze Coins) | CommandVerifycoins |
 | **!daily** | Queues the level as a daily level.  | | CommandDaily |
 | **!weekly** | Queues the level as a Weekly level. | | CommandWeekly |
-| **!delet** | Delete a level from the GDPS Server. | | CommandDelet |
+| **!delete** | Delete a level from the GDPS Server. | | CommandDelet |
 | **!pass** (Password) | Update the level password | **Password:** Numbers only, 4-6 digits (Set password to 0 make it a free-copy) | CommandPassOwn / CommandPassAll |
 | **!description** (Description) | Update the level description | **Description:** 300 characters limit. (Special Characters are removed for safety) | CommandDescription |
 | **!public** | Set a level publicly visible | | CommandPublicOwn / CommandPublicAll |
