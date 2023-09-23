@@ -20,6 +20,7 @@
 * [Create Roles](phpmyadmin/create-roles.md)
 * [Place roles](phpmyadmin/placing-roles.md)
 * [Place special moderator functions](phpmyadmin/create-modip.md)
+* [Elegant SQL fixes](phpmyadmin/elegant-sql-fixes.md)
 
 ## 🗿 Miscellaneous Information
 
