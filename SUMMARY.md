@@ -2,6 +2,10 @@
 
 * [Welcome to the Community Guide!](README.md)
 
+## 🗄️ Backend
+* [How Autoban.php works](backend/how-autoban-php-works.md)
+* [How Cron.php Works](backend/how-cron-works.md)
+
 ## 🛠 In-Game Help
 
 * [Level Commands](in-game-help/level-commands.md)
@@ -22,9 +26,7 @@
 * [Place special moderator functions](phpmyadmin/create-modip.md)
 
 ## 🗿 Miscellaneous Information
-
-* [How Autoban works](misc/how-autoban-php-works.md)
-
+*[nothing for now](README.md)
 ## 🔗 External Tools
 
 * [Protect your GDPS from exploits and raids](external-tools/tool-AntiRaidExploit.md)
