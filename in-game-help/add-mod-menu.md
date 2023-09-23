@@ -31,7 +31,7 @@ To add a mod menu to your GDPS you must have the following.
 20. Click on "lib"
 21. Click on "armebi-v7a"
 22. Replace the "libcocos2dcpp.so" with the modified one you created
-23. Click "Build"
+23. Click "Save"
 
 Your Done! Your GDPS should now have the mod menu when you open it. optioanlly you can do the following to fix the apk's name
 
