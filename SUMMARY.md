@@ -5,6 +5,7 @@
 ## 🛠 In-Game Help
 
 * [Level Commands](in-game-help/level-commands.md)
+* [Level Commands](in-game-help/add-mod-menu.md)
 
 ## ❔ FAQ
 
