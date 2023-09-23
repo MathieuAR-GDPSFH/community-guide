@@ -5,6 +5,7 @@
 ## 🛠 In-Game Help
 
 * [Level Commands](in-game-help/level-commands.md)
+* [Fix missing DLLs](in-game-help/missing-dlls-fix.md)
 
 ## ❔ FAQ
 
