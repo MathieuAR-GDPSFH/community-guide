@@ -47,7 +47,7 @@
 - twitch: The Twitch account the user has linked to their profile. (This only tells you what to put after the / in twitch.tv URL. 
   Example: twitch.tv/epicgamer.)
  
-- salt: It is useless for accounts.
+- salt: It is not used in a GDPS.
 
 - registerDate: Tells you what date the user registered their account in unix timestamp format. (Use a online calculator to find the actual date the account was registered on.)
 
@@ -668,7 +668,7 @@
 
 - gameVersion: The version of the game the user is using. (21 is 2.1, 20 is 2.0, 19 is 1.9 and so on.)
 
-- secret: This is the HTTP request that was made [for more information check this documentation.](https://github.com/Wyliemaster/gddocs/blob/master/docs/reference/secrets.md)
+- secret: This is not very secret. Everyone's secret is Wmfd2893gb7. 	
 
 - accIcon: This is the ID of the icon the user is using.
 
