@@ -1,6 +1,6 @@
 # PhpMyAdmin tables
 - PhpMyAdmin looks very confusing when you first see it, with all the tables.
-- Well here isva basic explanation of the tables.
+- Well here is a basic explanation of the tables.
 
 • Acccomments: this table lists all the account comments, shows you the account ID of the user who uploaded the comment.
 
@@ -34,7 +34,7 @@
 
 • Levelscores: Lists what account ID had what percentage on what level ID.
 
-• Links: Lists every user who has added some link to their profile, (YouTube link, Twitter, etc).
+• Links: Lists every user who has linked their account to another server. (Other GDPS'S)
 
 • Mappacks: Lists all the map packs, also another way to create map packs instead of tools page.
 
