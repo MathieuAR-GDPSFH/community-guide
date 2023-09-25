@@ -411,7 +411,7 @@
 
   4: This will display a 1 when you do !epic and it will display a 0 if you do !unepic.
 
-  5: Not 100% sure yet
+  5: It is now removed from mod_actions table and moved to actions_likes as type 2.
 
   6: It will display a 1 if you used !delete on a level.
 
