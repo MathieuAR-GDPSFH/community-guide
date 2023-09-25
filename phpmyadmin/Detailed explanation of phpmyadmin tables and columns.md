@@ -61,7 +61,7 @@
 
 ## Actions: This table will display automatic server-side actions.
 
-- ID: This tells you what account ID either did the action or received the automatic server-side action or just the ID of the action if it was not an action for an account.
+- ID: This is the unique ID of the action.
 
 - type: This tells you the type of action that was issued. I am not 100% sure about what action is what number. (I will update this when I find out.)
  
