@@ -24,12 +24,13 @@ Learn to access PHPMyAdmin: 🔐 [Accessing to phpMyAdmin](phpmyadmin/site-struc
 
 Learn PHPMyAdmin structure: 🔐 [Site Structure](phpmyadmin/site-structure.md)
 
+⚠ It is recommended to add a minimum of 3 quests.
 
 1. Access to your PHPMyAdmin database and Look for "quests".
 2. Open the insert tab.
 3. Fill out all fields correctly.
 4. Click on "Go".
-5. You have assigned a role to a user!
+5. Your quest has been created! ✨
 
 ## Trivia
 
