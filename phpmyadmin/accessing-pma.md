@@ -6,7 +6,7 @@ description: Beginner Tutorial to Access PHPMyAdmin
 
 GDPSFH has a site to access your GDPS database through **PHPMyAdmin**, here you can modify and find accounts, levels and any information coming from your GDPS.
 
-## In order to access your database you first need your username and password.
+## Obtaining username and password to enter your PHPMyAdmin database
 
 <img align="right" src="../.gitbook/assets/a-pma-img0.jpg" height="80%" width="50%" alt="GDPS Management image capture" />
 
