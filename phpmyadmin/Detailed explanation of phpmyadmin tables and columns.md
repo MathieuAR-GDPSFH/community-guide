@@ -664,7 +664,7 @@
 
 - userCoins: This is the amount of user coins the user has collected.
 
-- special: This is the trail the user has. (Trails have unique ID's.)
+- special: I am not sure about what this is or what it is meant to display.
 
 - gameVersion: The version of the game the user is using. (21 is 2.1, 20 is 2.0, 19 is 1.9 and so on.)
 
