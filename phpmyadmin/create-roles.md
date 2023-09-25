@@ -47,21 +47,13 @@ description: >-
 | **toolPackcreate** | Permission to create map packs via packCreate.php in tools| (Disabled by default) [0: Disabled / 1: Enabled] |
 | **toolQuestsCreate** | Permission to create quests via addQuests.php in tools| (Disabled by default) [0: Disabled / 1: Enabled] |
 | **toolModactions** | Permission to display moderator account activity publicly via tools or dashboard| (Disabled by default) [0: Disabled / 1: Enabled] |
-<<<<<<< HEAD
 | **toolSuggestlist** | Permission to view level suggest via suggestList.php in tools | (Disabled by default) [0: Disabled / 1: Enabled] |
 | **dashboardModTools** | Permission currently deprecated | (0 by default)
 | **modipCategory** | Place a [category ID](create-modip.md) | (from the "modipperms" table)
 | **isDefault** | Determine if the role applies to all players by default| (Disabled by default) [0: Disabled / 1: Enabled] |
 | **commentColor** | Place a RGB comment color | (000,000,000 by default) (RGB format)
 | **modBadgeLevel** | Place a badge level | (None by default) [0: None / 1:Moderator / 2: Elder Moderator / Any number] |
-=======
-| **toolSuggestlist** | Permission to view level suggest via suggestList.php in tools| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **dashboardModTools** | Permission currently deprecated| (0 by default)
-| **modipCategory** | Place a category ID| (from the "modipperms" table)
-| **isDefault** | Determine if the role applies to all players by default| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **commentColor** | Place a RGB comment color| (000,000,000 by default) (RGB format)
-| **modBadgeLevel** | Place a badge level| (None by default) [0: None / 1:Moderator / 2: Elder Moderator / Any number] |
->>>>>>> 90e47eb281e7431195384a940e76fac127fdc521
+
 
 ## Creating a role
 
