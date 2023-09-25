@@ -14,12 +14,16 @@
 
 ## 🔐 phpMyAdmin
 
+* [Accessing to phpMyAdmin](phpmyadmin/site-structure.md)
 * [Site Structure](phpmyadmin/site-structure.md)
 * [Create Gauntlets](phpmyadmin/create-gauntlets.md)
+* [Create Map Packs](phpmyadmin/create-mappacks.md)
+* [Create Quests](phpmyadmin/create-quests.md)
 * [Create Roles](phpmyadmin/create-roles.md)
 * [Place Roles](phpmyadmin/placing-roles.md)
 * [Place Special Moderator Functions](phpmyadmin/create-modip.md)
 * [Change Default Downloads/Likes](phpmyadmin/change-default-downloads-likes.md)
+* [Types of the table actions](phpmyadmin/create-modip.md)
 
 ## 🔗 External tools
 

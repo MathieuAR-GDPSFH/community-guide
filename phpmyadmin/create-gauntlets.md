@@ -75,20 +75,21 @@ These 2.2 gauntlets are **partially implemented** in [Geometry Dash Subzero](htt
 
 ## Creating gauntlet
 
+Learn to access PHPMyAdmin: 🔐 [Accessing to phpMyAdmin](phpmyadmin/site-structure.md)
 
+Learn PHPMyAdmin structure: 🔐 [Site Structure](phpmyadmin/site-structure.md)
 
-1. Access to PHPMyAdmin and look the table "gauntlets"
+1. Access to your PHPMyAdmin database and look the table "gauntlets"
+2. Open the insert tab
+3. Fill out all fields correctly.
+4. Click on "Go"
+5. Congratulations, you have created a gauntlet using PHPMyAdmin! 🔥
 
-
-1. Open phpMyAdmin & login
-2. Select the database starting with "gdps_"
-3. Look for "gauntlets"
-4. Open the insert tab
-5. Fill in these things:
-    * ID: This is the gauntlet ID. (1: fire, 2: ice, 3: poison, ...)
-    * level1-5: These are the level IDs. (note: they will not appear in the order you put them in GD, they will appear in difficulty order)
-6. Click on "Go"
-
-If you're confused, here's a video:
+**Have you not understood?** Watch this video tutorial (Credits to Matto58)
 
 {% embed url="https://www.youtube.com/watch?v=iISmYc0F7es" %}
+
+## Trivia
+
+- The only gauntlet without capitalisation in-game is the 'spike' Gauntlet.
+- Gauntlets work like map packs but with fewer functions.

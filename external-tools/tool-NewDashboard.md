@@ -7,6 +7,8 @@ description: >-
 
 This tool is fantastic, it **improves the abandon dashboard to a much better**, useful and easy to use.
 
+<img align="right" src="../.gitbook/assets/a-externaltools-img1.png" width="50%" alt=""/>
+
 ## This tool has several utilities including:
 
 - All (T) and (N) tools has been integrated to Dashboard!
@@ -28,8 +30,8 @@ This tool is fantastic, it **improves the abandon dashboard to a much better**, 
 - Proxy for reuploading levels!
 - [GDPS Discord/Revolt Music Bot!](https://github.com/MegaSa1nt/GDPS-MusicBot)
 
-**More information in this link:** https://github.com/Cvolton/GMDprivateServer/pull/883
+**More information in this link:** [@GMDPrivateServer/Pull/833](https://github.com/Cvolton/GMDprivateServer/pull/883)
 
-**This tool can be found at this link:** https://github.com/MegaSa1nt/GMDprivateServer/tree/master
+**This tool can be found at this link:** [github.com/MegaSa1nt/GMDprivateServer](https://github.com/MegaSa1nt/GMDprivateServer/tree/master)
 
 

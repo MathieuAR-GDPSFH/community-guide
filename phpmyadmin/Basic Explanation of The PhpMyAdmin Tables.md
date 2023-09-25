@@ -19,12 +19,11 @@
 • Gauntlets: Lists all the gauntlets in the GDPS, it also allows you to create them.
 • Levels: Lists all the levels, shows all the information about them.
 • Levelscores: Lists what account ID had what percentage on what level ID.
-• Links: Lists every user who has added some link to their profile, (YouTube link, Twitter, etc).
+• Links: Used for the tools linkAcc.php tool to set who owns the level when a user re-uploading level.
 • Mappacks: Lists all the map packs, also another way to create map packs instead of tools page.
-• Messages: lists all the messages sent to users. The content is encoded.
+• Messages: lists all the messages sent to users (The content is encoded in base64).
 • Modactions: Lists all actions done by mods, whether its suggesting a rate, featuring a level, it'll all go here.
-• Modipperms: I am actually not sure how this works exactly, but I think, if a ID (not account ID) is added here
-  and actionFreeCopy is set to 1, the mod can copy any level without mods(not 100% sure yet).
+• Modipperms: Special permissions for moderators, currently only has one tool.
 • Modips: Lists moderators IP's.
 • Quests: Lists all the quests, you can also create and delete quests here too.
 • Reports: lists any levels that have been reported.
