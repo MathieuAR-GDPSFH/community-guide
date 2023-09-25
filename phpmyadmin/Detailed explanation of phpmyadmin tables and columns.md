@@ -443,7 +443,7 @@
 
 - categoryID: The unique ID of the category.
 
-- actionFreeCopy: I am not sure if this does work because I have not got free copy (without hacks) when adding this to my role.
+- actionFreeCopy: This identifies whether your role can copy any level. Copy any level like copy hack. (0 = no permissions to copy all levels; 1 = permissions to copy all levels.)
 
 ## Modips: This table lists all the IP's of moderators and the moderators who have modipperms.
 
@@ -585,11 +585,11 @@
 - dashboardModTools: This identifies whether the role gives you permission to use the moderator tools on the dashboard (beta).
     (0 = no permission to use; 1 = permission to use.)
 
-- modipCategory: This identifies whether the role gives you access to special permissions. 
-  (You put the category ID of the modip permission you created in modipperms.)
+- modipCategory: This identifies whether the role gives you access to the free copy permission. 
+  (You put the category ID of the modip category you created in modipperms.)
 
-- isDefault: This makes the role default to members.
-  (The permissions the role gives users will be default to any user.)
+- isDefault: I am not sure about what this does.
+  (It does not make the permissions of the role default to any member.)
 
 - commentColor: This displays what colour the comments will be if you have this role. (It is in RGB color code)
 
