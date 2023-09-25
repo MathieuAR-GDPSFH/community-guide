@@ -2,14 +2,14 @@
 - PhpMyAdmin looks very confusing when you first see it, with all the tables.
 - Well here is a basic explanation of the tables.
 
-• Acccomments: this table lists all the account comments, shows you the account ID of the user who uploaded the comment.
+• Acccomments: this table lists all the account comments, shows you the account ID of the user who uploaded the comment and the time  the comment was uploaded.
 
 • Accounts: What the name says, lists all the accounts, their account ID's, usernames and if the account is active. 
   Password section gives you password hash which doesn't actually give you the account password.
 
 • Actions: This table lists actions such as mod actions, also lists other actions such as a disabled account.
 
-• Actions_downloads: this table counts downloads per IP per level.
+• Actions_downloads: this table counts downloads per IP per level. (It does not count downloading a level again.)
 
 • Actions_likes: The table counts likes per IP per level.
 
@@ -22,7 +22,7 @@
 
 • Cpshares: shows what levels !sharecp command was used on, along with the users.
 
-• Dailyfeatures: lists all the daily levels that have been set.
+• Dailyfeatures: lists all the daily and weekly levels that have been set.
 
 • Friendreqs: Lists all the friend requests sent to users from another user.
 
@@ -42,8 +42,7 @@
 
 • Modactions: Lists all actions done by mods, whether its suggesting a rate, featuring a level, it'll all go here.
 
-• Modipperms: I am actually not sure how this works exactly, but I think, if a ID (not account ID) is added here
-  and actionFreeCopy is set to 1, the mod can copy any level without mods(not 100% sure yet).
+• Modipperms: This table allows you to make a special category for moderator permissions that allows you to copy any level without installing hacks.
 
 • Modips: Lists moderators IP's.
 
