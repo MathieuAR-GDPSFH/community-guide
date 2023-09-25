@@ -1,6 +1,6 @@
 ---
 description: >-
-  Assign a user a role using PHPMyAdmin
+  Tutorial to create this PHPMyAdmin search explained in detail
 ---
 
 # Creating quests using PHPMyAdmin

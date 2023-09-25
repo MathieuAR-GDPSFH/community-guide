@@ -39,4 +39,4 @@ Learn PHPMyAdmin structure: 🔐 [Site Structure](phpmyadmin/site-structure.md)
 ## Trivia
 
 - For a strange reason Cvolton did not separate the level IDs in 3 more columns (contrary to gauntlets).
-- Difficulty numbers 6 through 10 do not exist before GD 2.1 version and the difficulty 6 not exist before GD 1.3 version.
+- Difficulty numbers 6 through 10 do not exist before GD 2.1 version.
