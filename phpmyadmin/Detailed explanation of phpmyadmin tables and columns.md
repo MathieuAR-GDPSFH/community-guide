@@ -166,6 +166,7 @@
 - timestamp: This is the unix timestamp of when the level was made daily/weekly. (You can use an online converter to get an actual date.)
   
 - type: The type. It can only be daily or weekly. 0 is daily and 1 is weekly.
+  (In 2.2, type 2 is the event level.(Added in latest GD 2.2 Subzero)
 
 ## Friendreqs: This table lists all the friend requests that have been sent.
 
