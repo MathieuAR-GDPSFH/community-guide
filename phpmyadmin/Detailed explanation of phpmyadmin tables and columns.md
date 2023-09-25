@@ -63,24 +63,31 @@
 
 - ID: This is the unique ID of the action.
 
-- type: This tells you the type of action that was issued. I am not 100% sure about what action is what number. (I will update this when I find out.)
+- type: This tells you the type of action that was issued.
+  (2 = A succesful login into a account; 6 = When a user fails to login to their account. It can also be 6 because the user's account is disabled from failing to login 6 times;
+  8 = When a level gets deleted off the servers; 9 = When a user updates their stats in-game; 16 = This is used for GJP verification every hour. It will only appear if sessionGrants is set to true in `config/security.php`)
  
-- value: This tells you what if the action happened on an account, level and anything else. (It will tell you a username for an account, a level ID for a level action and not sure about the other ones.
-  (I will update the guide when I find out.)
+- value: This tells you what value was changed to what.
+ (2 = The account ID of the user who logged in successfully; 6 = account ID that was either disabled or that the user failed to login to; 8 = the ID of the level that was deleted; 9 = the amount of stars the user collected; 16 = account ID that was verified.) 
  
 - timestamp: the unix timestamp of when the action happened. ( You can use an online calculator to tell you when it was exactly.)
   
-- value2: A column that tells you the IP of the account the action was issued to. (It is for more than just that but I'm unsure so I will update this guide when I find out.)
+- value2: Similar to the values column, this column just displays different information.
+  (2 = This displays the IP of the user who successfully logged in; 6 = This displays the IP of the user who failed to login/account disabled; 8 = This displays the IP of the user who deleted the level;
+  9 = This displays the amount of secret coins the user collected; 16 = This displays the IP of the user who has been verified.)
   
-- value3: A column I'm not sure of again. ( I will update this guide when I find out.)
+- value3: Similar to the other value columns, just for one type of action. (9 = This displays the amount of demons the user completed.)
   
-- value4: Not sure. (I will update this guide when I find out.)
+- value4: Similar to the other value columns, also for one type of action. (9 = This displays the amount of user coins the user collected.)
   
-- value5: Not sure again. (I will update this guide when I find out.)
+- value5: Similar to the other value columns, also for one type of action. (9 = This displays the amount of diamonds the user collected.)
   
-- value6: Not sure still. (I will update this guide when I find out.)
+- value6: This is for a 2.2 item. (9 = This will display the amount of moons the user has collected.)
   
-- account: I'm not sure but I think it is to tell you whether the action was to do with an account. ( I will update this guide when I find out.)
+- account: This is for action type 9. This displays the user ID of the user who changed their stats.
+
+  (Note: When I put numbers such as "2 =" I was referring to the action type number 2.)
+  (Other Note: There is already a guide about this but I only put this in here because it is to do with PhpMyAdmin.)
 
 ## Actions_downloads: This table lists every level download. It doesn't count another download when a user downloads a level again.
   
