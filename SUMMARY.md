@@ -23,7 +23,7 @@
 * [Create Roles](phpmyadmin/create-roles.md)
 * [Place roles](phpmyadmin/placing-roles.md)
 * [Place special moderator functions](phpmyadmin/create-modip.md)
-* [Basic Explanation of PhpMyAdmin tables](phpmyadmin/Basic-Explanation-of-The-PhpMyAdmin-tables.md)
+* [Basic Explanation of PhpMyAdmin tables](phpmyadmin/Basic-Explanation-of-The-PhpMyAdmin-Tables.md)
 * [In-depth explanation of PhpMyAdmin tables and columns](phpmyadmin/Detailed-Explanation-of-phpmyadmin-tables-and-columns.md)
 ## 🗿 Miscellaneous Information
 
