@@ -5,8 +5,8 @@
 ## 🛠 In-Game Help
 
 * [Level Commands](in-game-help/level-commands.md)
-* [Remove Android anticheat](phpmyadmin/Remove-Android-Anticheat.md)
-* [Remove 6-digit song ID limit(Android)](phpmyadmin/remove-6digit-song-limit-android.md)
+* [Remove Android anticheat](in-game-help/Remove-Android-Anticheat.md)
+* [Remove 6-digit song ID limit(Android)](in-game-help/remove-6digit-song-limit-android.md)
 
 ## ❔ FAQ
 
