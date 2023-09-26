@@ -13,30 +13,30 @@ To add a mod menu to your GDPS you must have the following.
 3. Find the APK of the **Mod Menu**
 4. Click "Simple Edit"
 5. Click on "Lib"
-7. Click on "armebi-v7a"
 ![](../.gitbook/assets/Screenshot_20230923-121906-751.png)
-9. Save "libcocos2dcpp.so"
+6. Click on "armebi-v7a"
 ![](../.gitbook/assets/Screenshot_20230923-121920-007.png)
-11. Open your Hex Editor
+8. Save "libcocos2dcpp.so"
+9. Open your Hex Editor
 ![](../.gitbook/assets/Screenshot_20230923-121944-133.png)
-13. Find "libcocos2dcpp.so" and open it
-14. Search for "www.boomlings.com/database" **Make sure your searching by a string and NOT a Hex Fragment**
+10. Find "libcocos2dcpp.so" and open it
+11. Search for "www.boomlings.com/database" **Make sure your searching by a string and NOT a Hex Fragment**
 ![](../.gitbook/assets/Screenshot_20230923-122017-727.png)
-16. Than tap "Find and Replace" and replace "www.boomlings.com/database" with your GDPS link (Findable on your GDPS panel
+12. Than tap "Find and Replace" and replace "www.boomlings.com/database" with your GDPS link (Findable on your GDPS panel
     For example, if your GDPS link is "epicgdps.ps.fhgdps.com" than you'll change "www.boomlings.com/database" to "epicgdps.ps.fhgdps.com"
-17. Open the Base64 Decoder and type "http://www.boomlings.com/database" and press "encode"
-18. Copy the result and search for it in your Hex Editor
-19. Go back to the Base64 Decoder and type your GDPS link into the box and press "encode"
-20. Copy the result and find and replace "aHR0cDovL3d3dy5ib29tbGluZ3MuY29tL2RhdGFiYXNl" with the GDPS's encoded link
-21. Save the File
-22. Open APK Editor
-23. Click on the APK of the **Mod Menu**
-24. Click "Simple Edit"
-25. Click on "lib"
-26. Click on "armebi-v7a"
-27. Replace the "libcocos2dcpp.so" with the modified one you created
+13. Open the Base64 Decoder and type "http://www.boomlings.com/database" and press "encode"
+14. Copy the result and search for it in your Hex Editor
+15. Go back to the Base64 Decoder and type your GDPS link into the box and press "encode"
+16. Copy the result and find and replace "aHR0cDovL3d3dy5ib29tbGluZ3MuY29tL2RhdGFiYXNl" with the GDPS's encoded link
+17. Save the File
+18. Open APK Editor
+19. Click on the APK of the **Mod Menu**
+20. Click "Simple Edit"
+21. Click on "lib"
+22. Click on "armebi-v7a"
+23. Replace the "libcocos2dcpp.so" with the modified one you created
 ![](../.gitbook/assets/Screenshot_20230923-122109-054.png)
-29. Click "Save"
+24. Click "Save"
 
 Your Done! Your GDPS should now have the mod menu when you open it. optioanlly you can do the following to fix the apk's name
 
