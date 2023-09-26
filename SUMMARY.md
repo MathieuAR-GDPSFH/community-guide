@@ -5,6 +5,7 @@
 ## 🛠 In-Game Help
 
 * [Level Commands](in-game-help/level-commands.md)
+* [Fix missing DLLs](in-game-help/missing-dlls-fix.md)
 
 ## ❔ FAQ
 
@@ -20,10 +21,12 @@
 * [Create Roles](phpmyadmin/create-roles.md)
 * [Place roles](phpmyadmin/placing-roles.md)
 * [Place special moderator functions](phpmyadmin/create-modip.md)
+* [Elegant SQL fixes](phpmyadmin/elegant-sql-fixes.md)
 
 ## 🗿 Miscellaneous Information
 
 * [How Autoban works](misc/how-autoban-php-works.md)
+* [How to use every tool](misc/how-to-use-tools.md)
 
 ## 🔗 External Tools
 

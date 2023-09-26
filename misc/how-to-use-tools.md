@@ -1,0 +1,59 @@
+---
+description: >-
+  Here's how to use each and every tool.
+---
+- activateAccount.php
+  - Activates an account if it isn't already.
+- changePassword.php
+  - Changes an account's password.
+- changeUsername.php
+  - Changes an account's username.
+- registerAccount.php
+  - Registers an account.
+- addQuests.php
+  - Creates a quest.
+- leaderboardsBan.php
+  - Bans an account from appearing in the leaderboards.
+    - Your Username: username of an account with leaderboard ban permissions
+    - Your Password: password of an account with leaderboard ban permissions
+    - Target UserID: the user ID of the ban reciever
+- leaderboardsUnban.php
+  - Does the opposite of leaderboardsBan.php.
+- packCreate.php
+  - Creates a map pack.
+    - Username: username of an account with map pack creation permissions
+    - Password: password of an account with map pack creation permissions
+    - Pack Name: name of the map pack
+    - Level IDs: IDs of the levels in the map pack, separated by commas (for example 14,11,60)
+    - Stars: the amount of stars the map pack will give after completion
+    - Coins: the amount of coins the map pack will give after completion
+- revertLikes.php
+  - Has no use for now.
+- songAdd.php
+  - Reuploads a song to the GDPS.
+- cron.php
+  - Runs the CRON job.
+- dailyTable.php
+  - Lists all daily levels ever.
+- modActions.php
+  - Shows actions done by moderators.
+- noLogin.php
+  - Shows accounts that haven't been used in a while.
+- packTable.php
+  - Shows all map packs and gauntlets.
+- reportList.php
+  - Shows a list of levels that were reported.
+- songList.php
+  - Shows a list of reuploaded songs.
+- stats.php
+  - Shows statistics for the GDPS.
+- suggestList.php
+  - Shows a list of levels sent by the given moderator.
+    - Username: moderator username
+    - Password: moderator password
+- top24h.php
+  - Shows the best leaderboard progress over the last 24 hours.
+- unlisted.php
+  - Shows unlisted levels for the given user.
+- vipList.php
+  - Shows all roles and players who have the roles.
