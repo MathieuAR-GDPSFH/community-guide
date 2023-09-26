@@ -34,15 +34,15 @@
 
 • Levelscores: Lists what account ID had what percentage on what level ID.
 
-• Links: Lists every user who has linked their account to another server. (Other GDPS'S)
+• Links: Used for the tools linkAcc.php tool to set who owns the level when a user re-uploading level.
 
 • Mappacks: Lists all the map packs, also another way to create map packs instead of tools page.
 
-• Messages: lists all the messages sent to users. The content is encoded.
+• Messages: lists all the messages sent to users (The content is encoded in base64).
 
 • Modactions: Lists all actions done by mods, whether its suggesting a rate, featuring a level, it'll all go here.
 
-• Modipperms: This table allows you to make a special category for moderator permissions that allows you to copy any level without installing hacks.
+• Modipperms: Special permissions for moderators, currently only for the purpose of allowing copying every level.
 
 • Modips: Lists moderators IP's.
 
