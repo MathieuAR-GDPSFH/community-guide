@@ -9,6 +9,8 @@
 ## 🛠 In-Game Help
 
 * [Level Commands](in-game-help/level-commands.md)
+* [Remove Android anticheat](in-game-help/Remove-Android-Anticheat.md)
+* [Remove 6-digit song ID limit(Android)](in-game-help/remove-6digit-song-limit-android.md)
 * [Fix missing DLLs](in-game-help/missing-dlls-fix.md)
 
 ## ❔ FAQ
@@ -20,6 +22,8 @@
 
 * [Accessing to phpMyAdmin](phpmyadmin/site-structure.md)
 * [Site Structure](phpmyadmin/site-structure.md)
+* [How to login to PhpMyAdmin and FTP](phpmyadmin/PhpMyAdmin-and-FTP.md)
+* [Change Default Downloads/Likes](phpmyadmin/change-default-downloads-likes.md)
 * [Create Gauntlets](phpmyadmin/create-gauntlets.md)
 * [Create Map Packs](phpmyadmin/create-mappacks.md)
 * [Create Quests](phpmyadmin/create-quests.md)
