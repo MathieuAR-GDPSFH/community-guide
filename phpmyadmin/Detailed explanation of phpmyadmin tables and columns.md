@@ -2,6 +2,7 @@
 
 ### Tables: Tables in PhpMyAdmin have columns and indexes. An example of a table is the accounts table.
 ### Columns: Columns are columns in PhpMyAdmin tables that make the tables function for the server. An example of a column is accountID in the accounts table.
+(Small note: This guide is VERY long.)
 
 ## Acccomments: This table displays all the account comments players have made on their profiles.
 - userID: Tells you what user ID made the comment.
