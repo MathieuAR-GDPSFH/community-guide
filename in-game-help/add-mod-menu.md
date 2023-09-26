@@ -13,13 +13,13 @@ To add a mod menu to your GDPS you must have the following.
 3. Find the APK of the **Mod Menu**
 4. Click "Simple Edit"
 5. Click on "Lib"
-6. Click on "armebi-v7a"
-![](../.gitbook/assets/Screenshot_20230923-121906-751.png)
+
+7. Click on "armebi-v7a"
 8. Save "libcocos2dcpp.so"
 ![](../.gitbook/assets/Screenshot_20230923-121920-007.png)
 10. Open your Hex Editor
 ![](../.gitbook/assets/Screenshot_20230923-121944-133.png)
-11. Find "libcocos2dcpp.so" and open it
+1![](../.gitbook/assets/Screenshot_20230923-121906-751.png)1. Find "libcocos2dcpp.so" and open it
 12. Search for "www.boomlings.com/database" **Make sure your searching by a string and NOT a Hex Fragment**
 ![](../.gitbook/assets/Screenshot_20230923-122017-727.png)
 13. Than tap "Find and Replace" and replace "www.boomlings.com/database" with your GDPS link (Findable on your GDPS panel
