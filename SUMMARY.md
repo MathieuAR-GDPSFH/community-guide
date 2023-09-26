@@ -2,6 +2,10 @@
 
 * [Welcome to the Community Guide!](README.md)
 
+## 🗄️ Backend
+* [How Autoban.php works](backend/how-autoban-php-works.md)
+* [How Cron.php Works](backend/how-cron-works.md)
+
 ## 🛠 In-Game Help
 
 * [Level Commands](in-game-help/level-commands.md)
