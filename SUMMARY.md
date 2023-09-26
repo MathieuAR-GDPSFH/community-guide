@@ -7,12 +7,10 @@
 * [Level Commands](in-game-help/level-commands.md)
 * [Fix missing DLLs](in-game-help/missing-dlls-fix.md)
 
-
 ## ❔ FAQ
 
 * [Package Parsing Error (Android)](faq/package-parsing-error-android.md)
 * [Error Reuploading level](faq/level-reupload-1005error.md)
-
 
 ## 🔐 phpMyAdmin
 
