@@ -8,7 +8,6 @@ GDPSFH has a site to access your GDPS database through **PHPMyAdmin**, here you 
 
 ## Obtaining username and password to enter your PHPMyAdmin database
 
-
 <img align="right" src="../.gitbook/assets/a-pma-img0.jpg" width="50%" alt="GDPS Management image capture" />
 
 

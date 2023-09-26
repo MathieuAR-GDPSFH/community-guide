@@ -30,6 +30,7 @@ Learn to access PHPMyAdmin: 🔐 [Accessing to phpMyAdmin](site-structure.md)
 Learn PHPMyAdmin structure: 🔐 [Site Structure](site-structure.md)
 
 
+
 1. Access to your PHPMyAdmin database and Look for "mappacks".
 2. Open the insert tab.
 3. Fill out all fields correctly.

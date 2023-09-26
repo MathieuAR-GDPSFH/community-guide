@@ -29,9 +29,15 @@ Learn PHPMyAdmin structure: 🔐 [Site Structure](site-structure.md)
 
 ## Set special moderator permission to a role
 
+<<<<<<< HEAD
 Learn to access PHPMyAdmin: 🔐 [Accessing to phpMyAdmin](site-structure.md)
 
 Learn PHPMyAdmin structure: 🔐 [Site Structure](site-structure.md)
+=======
+Learn to access PHPMyAdmin: 🔐 [Accessing to phpMyAdmin](phpmyadmin/site-structure.md)
+
+Learn PHPMyAdmin structure: 🔐 [Site Structure](phpmyadmin/site-structure.md)
+>>>>>>> f4e9a04d70d9f993f264a13568d636ada6c4831a
 
 1. Access to your PHPMyAdmin database and Look for ["roles"](create-roles.md).
 2. Create a new role or edit an existing role.
