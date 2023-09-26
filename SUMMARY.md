@@ -20,7 +20,7 @@
 
 ## 🔐 phpMyAdmin
 
-* [Accessing to phpMyAdmin](phpmyadmin/site-structure.md)
+* [Accessing to phpMyAdmin](phpmyadmin/accessing-pma.md)
 * [Site Structure](phpmyadmin/site-structure.md)
 * [How to login to PhpMyAdmin and FTP](phpmyadmin/PhpMyAdmin-and-FTP.md)
 * [Change Default Downloads/Likes](phpmyadmin/change-default-downloads-likes.md)

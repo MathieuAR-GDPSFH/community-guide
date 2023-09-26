@@ -57,9 +57,9 @@ description: >-
 
 ## Creating a role
 
-Learn to access PHPMyAdmin: 🔐 [Accessing to phpMyAdmin](phpmyadmin/site-structure.md)
+Learn to access PHPMyAdmin: 🔐 [Accessing to phpMyAdmin](site-structure.md)
 
-Learn PHPMyAdmin structure: 🔐 [Site Structure](phpmyadmin/site-structure.md)
+Learn PHPMyAdmin structure: 🔐 [Site Structure](site-structure.md)
 
 1. Access to your PHPMyAdmin database and Look for "roles".
 2. Open the insert tab.
