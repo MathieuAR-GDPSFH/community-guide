@@ -2,17 +2,19 @@
 
 * [Welcome to the Community Guide!](README.md)
 
+## 🗄️ Backend
+* [How Autoban.php works](backend/how-autoban-php-works.md)
+* [How Cron.php Works](backend/how-cron-works.md)
+
 ## 🛠 In-Game Help
 
 * [Level Commands](in-game-help/level-commands.md)
 * [Fix missing DLLs](in-game-help/missing-dlls-fix.md)
 
-
 ## ❔ FAQ
 
 * [Package Parsing Error (Android)](faq/package-parsing-error-android.md)
 * [Error Reuploading level](faq/level-reupload-1005error.md)
-
 
 ## 🔐 phpMyAdmin
 
