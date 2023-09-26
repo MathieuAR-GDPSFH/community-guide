@@ -9,6 +9,8 @@ It is a **useful Discord bot for your GDPS** with tools like adding songs, viewi
 
 To link **your GDPS is easy**, you must go to the Discord server where you want to link your GDPS and invoke the command `/guild gdps link`
 
+<img align="right" src="../.gitbook/assets/a-externaltools-img2.png" width="50%" alt=""/>
+
 ## This tool has several utilities including:
 
 - Search profiles
@@ -26,6 +28,6 @@ To link **your GDPS is easy**, you must go to the Discord server where you want 
 - Compatible with multiple languages
 - And lots of future features!
 
-**This tool can be found at this link:** https://discord.com/application-directory/806057353920249866
+**This tool can be found at this link:** [Discord.com AppDirectory ObeyGDBot](https://discord.com/application-directory/806057353920249866)
 
 
