@@ -20,9 +20,9 @@ description: >-
 
 ## Creating the quest 
 
-Learn to access PHPMyAdmin: 🔐 [Accessing to phpMyAdmin](phpmyadmin/site-structure.md)
+Learn to access PHPMyAdmin: 🔐 [Accessing to phpMyAdmin](site-structure.md)
 
-Learn PHPMyAdmin structure: 🔐 [Site Structure](phpmyadmin/site-structure.md)
+Learn PHPMyAdmin structure: 🔐 [Site Structure](site-structure.md)
 
 ⚠ It is recommended to add a minimum of 3 quests.
 

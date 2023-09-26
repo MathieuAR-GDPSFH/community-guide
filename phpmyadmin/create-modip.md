@@ -17,9 +17,9 @@ Many people do not know about this section but it is useful for moderators.
 
 ## Creating a category
 
-Learn to access PHPMyAdmin: 🔐 [Accessing to phpMyAdmin](phpmyadmin/site-structure.md)
+Learn to access PHPMyAdmin: 🔐 [Accessing to phpMyAdmin](site-structure.md)
 
-Learn PHPMyAdmin structure: 🔐 [Site Structure](phpmyadmin/site-structure.md)
+Learn PHPMyAdmin structure: 🔐 [Site Structure](site-structure.md)
 
 1. Access to your PHPMyAdmin database and Look for "modipperms".
 2. Open the insert tab.
@@ -29,9 +29,9 @@ Learn PHPMyAdmin structure: 🔐 [Site Structure](phpmyadmin/site-structure.md)
 
 ## Set special moderator permission to a role
 
-Learn to access PHPMyAdmin: 🔐 [Accessing to phpMyAdmin](phpmyadmin/site-structure.md)
+Learn to access PHPMyAdmin: 🔐 [Accessing to phpMyAdmin](site-structure.md)
 
-Learn PHPMyAdmin structure: 🔐 [Site Structure](phpmyadmin/site-structure.md)
+Learn PHPMyAdmin structure: 🔐 [Site Structure](site-structure.md)
 
 1. Access to your PHPMyAdmin database and Look for ["roles"](create-roles.md).
 2. Create a new role or edit an existing role.

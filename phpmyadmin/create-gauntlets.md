@@ -75,9 +75,9 @@ These 2.2 gauntlets are **partially implemented** in [Geometry Dash Subzero](htt
 
 ## Creating gauntlet
 
-Learn to access PHPMyAdmin: 🔐 [Accessing to phpMyAdmin](phpmyadmin/site-structure.md)
+Learn to access PHPMyAdmin: 🔐 [Accessing to phpMyAdmin](site-structure.md)
 
-Learn PHPMyAdmin structure: 🔐 [Site Structure](phpmyadmin/site-structure.md)
+Learn PHPMyAdmin structure: 🔐 [Site Structure](site-structure.md)
 
 1. Access to your PHPMyAdmin database and look the table "gauntlets"
 2. Open the insert tab

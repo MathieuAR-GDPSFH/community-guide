@@ -16,7 +16,7 @@
 
 ## 🔐 phpMyAdmin
 
-* [Accessing to phpMyAdmin](phpmyadmin/site-structure.md)
+* [Accessing to phpMyAdmin](phpmyadmin/accessing-pma.md)
 * [Site Structure](phpmyadmin/site-structure.md)
 * [Create Gauntlets](phpmyadmin/create-gauntlets.md)
 * [Create Map Packs](phpmyadmin/create-mappacks.md)
