@@ -26,7 +26,7 @@ To add a mod menu to your GDPS you must have the following.
     For example, if your GDPS link is "epicgdps.ps.fhgdps.com" than you'll change "www.boomlings.com/database" to "epicgdps.ps.fhgdps.com"
 13. Open the Base64 Decoder and type "http://www.boomlings.com/database" and press "encode"
 14. Copy the result and search for it in your Hex Editor
-15. Go back to the Base64 Decoder and type your GDPS link into the box and press "encode"
+15. Go back to the Base64 Decoder and type http:// **than** your GDPS link into the box and press "encode"
 16. Copy the result and find and replace "aHR0cDovL3d3dy5ib29tbGluZ3MuY29tL2RhdGFiYXNl" with the GDPS's encoded link
 17. Save the File
 18. Open APK Editor
