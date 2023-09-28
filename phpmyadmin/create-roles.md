@@ -47,19 +47,27 @@ description: >-
 | **toolPackcreate** | Permission to create map packs via packCreate.php in tools| (Disabled by default) [0: Disabled / 1: Enabled] |
 | **toolQuestsCreate** | Permission to create quests via addQuests.php in tools| (Disabled by default) [0: Disabled / 1: Enabled] |
 | **toolModactions** | Permission to display moderator account activity publicly via tools or dashboard| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **toolSuggestlist** | Permission to view level suggest via suggestList.php in tools| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **dashboardModTools** | Permission currently deprecated| (0 by default)
-| **modipCategory** | Place a category ID| (from the "modipperms" table)
+| **toolSuggestlist** | Permission to view level suggest via suggestList.php in tools | (Disabled by default) [0: Disabled / 1: Enabled] |
+| **dashboardModTools** | Permission currently deprecated | (0 by default)
+| **modipCategory** | Place a [category ID](create-modip.md) | (from the "modipperms" table)
 | **isDefault** | Determine if the role applies to all players by default| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **commentColor** | Place a RGB comment color| (000,000,000 by default) (RGB format)
-| **modBadgeLevel** | Place a badge level| (None by default) [0: None / 1:Moderator / 2: Elder Moderator / Any number] |
+| **commentColor** | Place a RGB comment color | (000,000,000 by default) (RGB format)
+| **modBadgeLevel** | Place a badge level | (None by default) [0: None / 1: Moderator / 2: Elder Moderator / Any number] |
+
 
 ## Creating a role
 
-1. Open phpMyAdmin & login.
-2. Select the database starting with "gdps_".
-3. Look for "roles".
-4. Open the insert tab.
-5. Fill out all fields correctly.
-6. Click on "Go".
-7. You have created your role correctly!
+Learn to access PHPMyAdmin: 🔐 [Accessing to phpMyAdmin](site-structure.md)
+
+Learn PHPMyAdmin structure: 🔐 [Site Structure](site-structure.md)
+
+1. Access to your PHPMyAdmin database and Look for "roles".
+2. Open the insert tab.
+3. Fill out all fields correctly.
+4. Click on "Go".
+5. You have created your role correctly!
+
+## Trivia
+
+- In the "commentColor" column you can also use the HEX color format instead of RGB but it is not recommended.
+- The "dashboardModTools" is the only column currently unused.

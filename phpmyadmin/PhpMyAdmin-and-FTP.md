@@ -11,7 +11,7 @@ PMA stands for PhpMyAdmin.
 # How to login to FTP 
 Use the same username and password as PhpMyAdmin.
 Copy hostname and port.
-Use a FTP client (FileZilla client for pc 
+Use a FTP client (FileZilla client for pc)
 and for Android, use CX explorer, it has FTP connectivity abilities.
 Now put all the login info into the right sections.
 
