@@ -34,6 +34,8 @@
 * [Change Default Downloads/Likes](phpmyadmin/change-default-downloads-likes.md)
 * [Types of the table actions](phpmyadmin/create-modip.md)
 * [Elegant SQL fixes](phpmyadmin/elegant-sql-fixes.md)
+* [Basic explanation of PhpMyAdmin tables](phpmyadmin/Basic-Explanation-of-The-PhpMyAdmin-Tables.md)
+* [In-depth explanation of PhpMyAdmin tables and columns](phpmyadmin/Detailed-Explanation-of-phpmyadmin-tables-and-columns.md)
 
 ## 🗿 Miscellaneous Information
 
