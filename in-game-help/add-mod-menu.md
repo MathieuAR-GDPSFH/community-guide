@@ -1,95 +1,95 @@
+---
+description: This guide will teach you how to add a Mod Menu to your GDPS on mobile and PC.
+---
+
 # Adding a Mod Menu to your GDPS
-This guide will teach you how to add a Mod Menu to your GDPS on mobile and PC!
 
-# Android 
-To add a mod menu to your GDPS you must have the following. 
-- A Hex Editor
-- Italian Apk Downloader's Mod Menu [Find it Here](https://www.youtube.com/watchv=YNF_wk7uMuA)
-- APK Editor
-- Base64 Decoder [Website Link](https://www.base64encode.org/)
-- Your GDPS's APK
+(This page may need a rework in the future, some information is lacking)
 
-1. Open APK Editor
-2. Click "Select an APK File"
-3. Find the APK of the **Mod Menu**
-4. Click "Simple Edit"
-5. Click on "Lib"
-![](../.gitbook/assets/Screenshot_20230923-121906-751.png)
-![](../.gitbook/assets/Screenshot_20230923-121920-007.png)
-7. Click on "armebi-v7a"
-8. Save "libcocos2dcpp.so"
+## Android
 
-Now you have 2 options for installing, either one works the same way.
+To add a mod menu to your GDPS you must have the following.
 
-### Method 1
-The Hard Way (Kinda)
+* A Hex Editor (Required for method 1)
+* Italian Apk Downloader's Mod Menu - [Download it here](https://www.youtube.com/watch?v=YNF\_wk7uMuA)
+* APK Editor
+* Base64 Encoder [Website Link](https://www.base64encode.org/) (Required for method 1)
+* Your GDPS' APK
 
-1. Open your Hex Editor
-![](../.gitbook/assets/Screenshot_20230923-121944-133.png)
-2. Find "libcocos2dcpp.so" and open it
-3. Search for "www.boomlings.com/database" **Make sure your searching by a string and NOT a Hex Fragment**
-![](../.gitbook/assets/Screenshot_20230923-122017-727.png)
-4. Than tap "Find and Replace" and replace "www.boomlings.com/database" with your GDPS link (Findable on your GDPS panel
-    For example, if your GDPS link is "epicgdps.ps.fhgdps.com" than you'll change "www.boomlings.com/database" to "epicgdps.ps.fhgdps.com"
-5. Open the Base64 Decoder and type "http://www.boomlings.com/database" and press "encode"
-6. Copy the result and search for it in your Hex Editor
-7. Go back to the Base64 Decoder and type http:// **than** your GDPS link into the box and press "encode"
-8. Copy the result and find and replace "aHR0cDovL3d3dy5ib29tbGluZ3MuY29tL2RhdGFiYXNl" with the GDPS's encoded link
-9. Save the File
-10. Open APK Editor
-11. Click on the APK of the **Mod Menu**
-12. Click "Simple Edit"
-13. Click on "lib"
-15. Click on "armebi-v7a"
-15. Replace the "libcocos2dcpp.so" with the modified one you created
-![](../.gitbook/assets/Screenshot_20230923-122109-054.png)
-16. Click "Save"
-
-### Method 2 
-
-1. Go back to apk editor and close everything
-2. Select your GDPS's APK File
-3. Click Simple Edit
-4. Go to "lib"
-5. Go to "armebi-v7a"
-6. Find "libcocos2dcpp.so"
-7. Save it
-8. Go back and select your Mod Menu APK
-9. Go to the sane location again in the mod menu APK
-10. Replace the old "libcocos2dcpp.so" with the one from your GDPS
-11. Click "Save"
-
-Your Done! Your GDPS should now have the mod menu when you open it. optioanlly you can do the following to fix the apk's name/package name
+### Method 1 (Manual Replacement; Complicated)
 
 1. Open APK Editor
-2. Find the Apk in the ApkEditor/tmp folder
-3. Click "Common Edit"
+2. Tap "Select an APK File"
+3. Find the APK of the **Mod Menu** - Not your GDPS or the original game!
+4. Tap "Simple Edit"
+5. Navigate into the folders as seen on the images below
+
+&#x20;![](../.gitbook/assets/Screenshot\_20230923-121906-751.png) ![](../.gitbook/assets/Screenshot\_20230923-121920-007.png)
+
+6. Save "libcocos2dcpp.so"
+
+&#x20;![](../.gitbook/assets/Screenshot\_20230923-121944-133.png)
+
+7. Open your Hex Editor
+8. Find "libcocos2dcpp.so" you have extracted from the Mod Menu APK and open it
+9. Search for "www.boomlings.com/database". Make sure to look for "String" rather than "Hex".
+
+&#x20;![](../.gitbook/assets/Screenshot\_20230923-122017-727.png)
+
+10. Tap on "Find and Replace" and replace "http://www.boomlings.com/database" with your GDPS link. Make sure your GDPS link is the exact same length as the original link as shown in the image below
+
+![](<../.gitbook/assets/image (1).png>) <- Tap on the image to zoom in.
+
+11. Open the [Base64 Encoder](https://www.base64encode.org) and type "http://www.boomlings.com/database" and press "encode"
+12. Copy the result and search for it in your Hex Editor
+13. Go back to the [Base64 Encoder](https://www.base64encode.org) and type your GDPS link into the box and press "encode" (same length-specific rule applies as in Step 10.)
+14. Copy the result and find and replace the Base64-encoded boomlings link with your Base64-encoded GDPS link.
+15. Save the file
+16. Open APK Editor
+17. Tap on the APK of the **Mod Menu**
+18. Tap "Simple Edit" and navigate back to the "lib" / "armebi-v7a" folder.
+19. Replace the "libcocos2dcpp.so" with the modified one you created ![](../.gitbook/assets/Screenshot\_20230923-122109-054.png)
+20. Save the APK.
+
+### Method 2 (Transfer existing libcocos2dcpp.so file from your GDPS APK)
+
+1. Go into APK Editor and select your GDPS' APK file instead
+2. Tap on "Simple Edit"
+3. Navigate to "lib" / "armebi-v7a"
+4. Find "libcocos2dcpp.so" and save it
+5. Go back and select your **Mod Menu** APK
+6. Navigate to the "lib" / "armebi-v7a" (again)
+7. Replace the old "libcocos2dcpp.so" with the one from your GDPS
+8. Save the APK.
+
+Your new GDPS' APK should now have the mod menu when you open it. Optionally you can replace the package name to separate your GDPS with the original game.
+
+1. Open APK Editor
+2. Find the APK in the "ApkEditor/tmp" folder
+3. Tap on "Common Edit"
 4. Change the App icon/name or whatever you would like
-5. Change the package name so you can have normal geometry dash and your GDPS at the same time
-6. Click "Save"
+5. Change the package name to whatever you like. Please do not put numbers at the start of the package name.
 
-Install the APK and the name should be the same!
+The APK should now work whilst being separate from the original game. If you encounter an issue with installing it, [check here on how to fix "damaged" packages](../faq/package-parsing-error-android.md).
 
-# PC
+## PC (Windows)
 
-## GDMegaOverlay
-This part of the guide will teach you how to add GDMegaOverlay to your PC GDPS. You will need the following
-- Your GDPS's Files
-- GDMegaOverlay [https://github.com/maxnut/GDMegaOverlay]
+### GDMegaOverlay
 
-1. Open your GDPS file (The files you got from the panel)
-2. Download the "gdmo" folder from the GDMegaOverlay github
-3. Copy all the files over to your GDPS's folder
+This part of the guide will teach you how to add GDMegaOverlay to your GDPS.
 
-Congradulations! You've installed a mod menu on your PC version of your GDPS!
+1. Open your GDPS folder you have extracted
+2. Download the "gdmo" folder from the [GDMegaOverlay GitHub page](https://github.com/maxnut/GDMegaOverlay)
+3. Copy all the files over to your GDPS' folder. If you're prompted to replace files, click on yes.
 
-## Mega Hack v5 
-This part will teach you how to install Mega Hack v5 onto your GDPS. You will need
-- Your GDPS Files
-- Mega Hack v5 (Free on Absolutes Website)
+### Mega Hack v5
 
-1. Open your GDPS Files
-2. Make sure when you open your GDPS the window is called "Geometry Dash"
-   If not, rename the exe and change it (Not explaining how because idk how)
-3. Launch Mega Hack v5
-4. It should auto-detect your GDPS and than your good to go!
+You can't really "install" Mega Hack to a GDPS. But you can still bind it to your GDPS.
+
+You will need to download a hex-editor like [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20).
+
+1. Download and extract Mega Hack v5
+2. Open MegaHack.exe in HxD
+3. Search and Replace (CTRL+R) for "GeometryDash.exe" with your GDPS' exe name. Make sure that your GDPS' .exe name has the exact same length as GeometryDash.exe.\
+   If the length doesn't match, backup your GDPS account and rename your GDPS' .exe name to something fitting.\
+   <mark style="color:red;">If HxD prompts "This replace operation changes the file size", do NOT proceed.</mark>
