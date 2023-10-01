@@ -22,27 +22,29 @@ description: >-
 
 5. As shown by my amazing highlighting, focus on the row with that person's username on it.
 
-6. Use the scrollbar at the bottom of the screen to scroll to the other end of the page.
+6. Find their user ID and put it somewhere. You're not going to need it now, but you will later, so copy it into Notepad or something.
 
-7. You should see their IP somewhere on that row; copy it, we're going to need it in a moment. Also, try not to leak everyone's IP. It's not nice.
+![image](https://github.com/xavwashere/community-guide/assets/97399129/54f920e7-e43a-4442-8cd7-dc41b752f92d)
+
+7. Use the scrollbar at the bottom of the screen to scroll to the other end of the page.
+
+8. You should see their IP somewhere on that row; copy it, we're going to need it in a moment. Also, try not to leak everyone's IP. It's not nice.
 
 ![image](https://github.com/xavwashere/community-guide/assets/97399129/214c31f2-ee7b-4c02-b1dd-b8ea380f747c)
 
-8. You are now done in the `users` section. *loud confetti noises* Now, let's move on. Focus on the sidebar for a minute and find `bannedips`. Click on it.
+9. You are now done in the `users` section. *loud confetti noises* Now, let's move on. Focus on the sidebar for a minute and find `bannedips`. Click on it.
 
 ![image](https://github.com/xavwashere/community-guide/assets/97399129/7f33ab08-5fbf-4a7a-bba4-770494b8dfa7)
 
-9. You should see this screen; Click on the `Insert` button at the top of your screen (the button that is circled)
+10. You should see this screen; Click on the `Insert` button at the top of your screen (the button that is circled)
 
 ![image](https://github.com/xavwashere/community-guide/assets/97399129/24048cee-04e2-4883-a3bf-d0cc0f70256e)
 
-10. There should be a table. Find the IP row and edit the value. It *should* already say `127.0.0.1`. Delete it and paste in the user's IP but **don't** press `ENTER` once you're done. Just click onto the text box underneath (ID).
+11. There should be a table. Find the IP row and edit the value. It *should* already say `127.0.0.1`. Delete it and paste in the user's IP but **don't** press `ENTER` once you're done. Just click onto the text box underneath (ID).
 
 ![image](https://github.com/xavwashere/community-guide/assets/97399129/4fcc74bf-e7c3-4065-8b03-4cf7866c0364)
 
-11. Next, you'll need to find the user's ID. You can find this by going to their profile in your GDPS and looking at the bottom of the window.
-
-12. Paste it into the textbox and press Go.
+12. Next, you'll need to find the user's ID. Remember we copied it earlier? You *should* have copied it into Notepad if you were following the guide correctly. Paste it into the textbox and hit Go.
 
 ![image](https://github.com/xavwashere/community-guide/assets/97399129/b96c2f34-18e6-45a1-a003-a6f2f8e07755)
 
