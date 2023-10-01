@@ -40,7 +40,7 @@ description: >-
 
 ![image](https://github.com/xavwashere/community-guide/assets/97399129/4fcc74bf-e7c3-4065-8b03-4cf7866c0364)
 
-11. Next, you'll need to find the user's ID. You can find this by going to their profile in your GDPS and looking at the bottom of the window. You should be able to click on it and it will copy it.
+11. Next, you'll need to find the user's ID. You can find this by going to their profile in your GDPS and looking at the bottom of the window.
 
 12. Paste it into the textbox and press Go.
 
