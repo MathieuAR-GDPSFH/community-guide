@@ -11,7 +11,7 @@ The panel is still under development, you can accomplish bascially everything th
 Not without a mod, GDPSFN does not support 2.2 at this time
 
 ### I can't complete 3 star and above levels that are shorter than 30 seconds
-You need to disable anticheat check out [This Guide](in-game-help/Remove-Android-Anticheat.md)
+You need to disable anticheat. check out [This Guide](in-game-help/Remove-Android-Anticheat.md) to learn how
 
 ### How do i make a daily/weekly level
 Make sure you have all permissions and type !daily for daily level or !weeekly for a weekly level
@@ -21,3 +21,6 @@ You can't currently, RobTop blocked it
 
 ### Someone cheated, What can i do?
 You can ban them from the leaderboards by using LeaderboardBan.php
+
+### Can i make multiplr GDPS's 
+No, you can only have 1 currently 
