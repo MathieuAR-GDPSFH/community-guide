@@ -6,6 +6,8 @@
   * [Missing Dlls Fix](faq/missing-dlls-fix.md)
   * [Package Parsing Error Android](faq/package-parsing-error-android.md)
   * [Phpmyadmin And Ftp](faq/phpmyadmin-and-ftp.md)
+  * [General FAQ](faq/general-faq.md)
+  * [Account Disabled](faq/account-disabled.md)
 
 - In Game Help
   * [Add Mod Menu](in-game-help/add-mod-menu.md)
