@@ -4,8 +4,6 @@ description: This guide will teach you how to add a Mod Menu to your GDPS on mob
 
 # Adding a Mod Menu to your GDPS
 
-(This page may need a rework in the future, some information is lacking)
-
 ## Mobile (Android)
 
 To add a mod menu to your GDPS you must have the following.
@@ -96,7 +94,7 @@ This part of the guide will teach you how to add GDMegaOverlay to your GDPS, GDM
 
 ### Mega Hack v5
 
-You can't really "install" Mega Hack to a GDPS. But you can still bind it to your GDPS.
+You can't really "install" Mega Hack v5 to a GDPS. But you can still bind it to your GDPS.
 
 You will need to download a hex-editor like [HxD](https://mh-nexus.de/en/downloads.php?product=0).
 
