@@ -1,6 +1,6 @@
 # Account Disabled
 
-This guide will teach you how to fix "This account has been disabled" mwssage
+This guide will teach you how to fix "This account has been disabled" message
 
 You will need 
 - phpmyadmin
