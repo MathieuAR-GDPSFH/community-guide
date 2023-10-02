@@ -1,47 +1,38 @@
-# Table of contents
+# GDPSFH Community Guide
 
-* [Welcome to the Community Guide!](README.md)
+- Faq
+  * [Accessing Pma](faq/accessing-pma.md)
+  * [Level Reupload 1005 Error](faq/level-reupload-1005error.md)
+  * [Missing Dlls Fix](faq/missing-dlls-fix.md)
+  * [Package Parsing Error Android](faq/package-parsing-error-android.md)
+  * [Phpmyadmin And Ftp](faq/phpmyadmin-and-ftp.md)
 
-## 🗄️ Backend
-* [How Autoban.php works](backend/how-autoban-php-works.md)
-* [How Cron.php Works](backend/how-cron-works.md)
+- In Game Help
+  * [Add Mod Menu](in-game-help/add-mod-menu.md)
+  * [Level Commands](in-game-help/level-commands.md)
+  * [Remove 6 Digit Song Limit Android](in-game-help/remove-6digit-song-limit-android.md)
+  * [Remove Android Anticheat](in-game-help/Remove-Android-Anticheat.md)
 
-## 🛠 In-Game Help
+- Phpmyadmin
+  * [Actions Explain](phpmyadmin/actions-explain.md)
+  * [Banning](phpmyadmin/banning.md)
+  * [Basic Explanation Of The Php My Admin Tables](phpmyadmin/Basic-Explanation-of-The-PhpMyAdmin-Tables.md)
+  * [Change Default Downloads Likes](phpmyadmin/change-default-downloads-likes.md)
+  * [Create Gauntlets](phpmyadmin/create-gauntlets.md)
+  * [Create Mappacks](phpmyadmin/create-mappacks.md)
+  * [Create Modip](phpmyadmin/create-modip.md)
+  * [Create Quests](phpmyadmin/create-quests.md)
+  * [Create Roles](phpmyadmin/create-roles.md)
+  * [Detailed Explanation Of Phpmyadmin Tables And Columns](phpmyadmin/Detailed-Explanation-of-phpmyadmin-tables-and-columns.md)
+  * [Elegant Sql Fixes](phpmyadmin/elegant-sql-fixes.md)
+  * [Give Permissions](phpmyadmin/give-permissions.md)
+  * [Placing Roles](phpmyadmin/placing-roles.md)
+  * [Site Structure](phpmyadmin/site-structure.md)
 
-* [Level Commands](in-game-help/level-commands.md)
-* [Mod Menu](in-game-help/add-mod-menu.md)
-* [Remove Android anticheat](in-game-help/Remove-Android-Anticheat.md)
-* [Remove 6-digit song ID limit(Android)](in-game-help/remove-6digit-song-limit-android.md)
-* [Fix missing DLLs](in-game-help/missing-dlls-fix.md)
+- Misc
+  * [How To Use Tools](misc/how-to-use-tools.md)
 
-## ❔ FAQ
+- Backend
+  * [How Autoban Php Works](backend/how-autoban-php-works.md)
+  * [How Cron Works](backend/how-cron-works.md)
 
-* [Package Parsing Error (Android)](faq/package-parsing-error-android.md)
-* [Error Reuploading level](faq/level-reupload-1005error.md)
-
-## 🔐 phpMyAdmin
-
-* [Accessing to phpMyAdmin](phpmyadmin/accessing-pma.md)
-* [Site Structure](phpmyadmin/site-structure.md)
-* [How to login to PhpMyAdmin and FTP](phpmyadmin/PhpMyAdmin-and-FTP.md)
-* [Change Default Downloads/Likes](phpmyadmin/change-default-downloads-likes.md)
-* [Create Gauntlets](phpmyadmin/create-gauntlets.md)
-* [Create Map Packs](phpmyadmin/create-mappacks.md)
-* [Create Quests](phpmyadmin/create-quests.md)
-* [Create Roles](phpmyadmin/create-roles.md)
-* [Place Roles](phpmyadmin/placing-roles.md)
-* [Place Special Moderator Functions](phpmyadmin/create-modip.md)
-* [Change Default Downloads/Likes](phpmyadmin/change-default-downloads-likes.md)
-* [Types of the table actions](phpmyadmin/create-modip.md)
-* [Elegant SQL fixes](phpmyadmin/elegant-sql-fixes.md)
-
-## 🗿 Miscellaneous Information
-
-* [How Autoban works](misc/how-autoban-php-works.md)
-* [How to use every tool](misc/how-to-use-tools.md)
-
-## 🔗 External tools
-
-* [Protect your GDPS from exploits and raids](external-tools/tool-AntiRaidExploit.md)
-* [Better dashboard](external-tools/tool-NewDashboard.md)
-* [ObeyGDBot: GDPS Bot for Discord](external-tools/tool-ObeyGDBot.md)

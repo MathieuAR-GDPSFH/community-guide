@@ -1,24 +1,20 @@
-# PhpMyAdmin tables
-- PhpMyAdmin looks very confusing when you first see it, with all the tables.
-- Well here is a basic explanation of the tables.
+# Basic explanation of phpMyAdmin tables
 
-• Acccomments: this table lists all the account comments, shows you the account ID of the user who uploaded the comment and the time  the comment was uploaded.
+• Acccomments: this table lists all the account comments, shows you the account ID of the user who uploaded the comment and the time the comment was uploaded.
 
-• Accounts: What the name says, lists all the accounts, their account ID's, usernames and if the account is active. 
-  Password section gives you password hash which doesn't actually give you the account password.
+• Accounts: What the name says, lists all the accounts, their account ID's, usernames and if the account is active. Password section gives you password hash which doesn't actually give you the account password.
 
 • Actions: This table lists actions such as mod actions, also lists other actions such as a disabled account.
 
-• Actions_downloads: this table counts downloads per IP per level. (It does not count downloading a level again.)
+• Actions\_downloads: this table counts downloads per IP per level. (It does not count downloading a level again.)
 
-• Actions_likes: The table counts likes per IP per level.
+• Actions\_likes: The table counts likes per IP per level.
 
 • Bannedips: To IP ban someone from leaderboards.
 
 • Blocks: lists who has blocked who in your GDPS.
 
-• Comments: Lists every comment, tells you what account ID uploaded the comment, and what level ID it was commented on.
-  Tells you the comment ID too.
+• Comments: Lists every comment, tells you what account ID uploaded the comment, and what level ID it was commented on. Tells you the comment ID too.
 
 • Cpshares: shows what levels !sharecp command was used on, along with the users.
 
@@ -58,9 +54,8 @@
 
 • Suggest: Lists levels moderators have used suggest rate on.(only works if you've configured your role correctly).
 
-• Users: Lists all the users, gives you user ID, IP, and so much more.
-  You can star only leaderboard ban someone in this table by setting isBanned to 1 but leaving isCreatorBanned at 0.
-  There's a lot of info in this table.
-___________________________________________________________________________________________
+• Users: Lists all the users, gives you user ID, IP, and so much more. You can star only leaderboard ban someone in this table by setting isBanned to 1 but leaving isCreatorBanned at 0. There's a lot of info in this table.
+
+***
 
 Hope this helped.

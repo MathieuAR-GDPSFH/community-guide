@@ -1,73 +1,69 @@
 ---
-description: >-
-  Create a role using PhpMyAdmin and make a good configuration and organization of your gdps roles
+description: Create a role using phpMyAdmin that can be assigned to players.
 ---
 
-# Creating a role using PHPMyAdmin
+# Create Roles
 
 ## Role table structure
 
-
-| Name | Information | Args |
-| ---- | ----------- | ---- |
-| **RoleID** | Add a unique number to the role | (optional) |
-| **priority** | Priority number _(ascending)_ to determine which role is visible in the game and what permissions user will have in the gdps (this is important if multiple roles are assigned to a user) | (Numeric) (No optional) |
-| **roleName** | Name that you will give to the role | (optional but it is important if you will have several roles) |
-| **commandRate** | Permission to use the !rate command | (Disabled by default) [0: Disabled / 1: Enabled] |
-| **commandFeature** | Permission to use the !feature command | (Disabled by default) [0: Disabled / 1: Enabled] |
-| **commandEpic** | Permission to use the !epic command | (Disabled by default) [0: Disabled / 1: Enabled] |
-| **commandUnepic** | Permission to use the !unepic command | (Disabled by default) [0: Disabled / 1: Enabled] |
-| **commandVerifycoins** | Permission to use the !verifycoins command| (Disabled by default) | [0: Disabled / 1: Enabled] |
-| **commandDaily** | Permission to use the !daily command| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **commandWeekly** | Permission to use the !weekly command| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **commandDelete** | Permission to use the !delet command| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **commandSetacc** | Permission to use the !setacc command| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **commandRenameOwn** | Permission to use the !rename command itself| (Enabled by default) [0: Disabled / 1: Enabled] |
-| **commandRenameAll** | Permission to use the !rename command at any level| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **commandPassOwn** | Permission to use the !pass command itself| (Enabled by default) [0: Disabled / 1: Enabled] |
-| **commandPassAll** | Permission to use the !pass command at any level| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **commandDescriptionOwn** | Permission to use the !description command itself| (Enabled by default) [0: Disabled / 1: Enabled] |
-| **commandDescriptionAll** | Permission to use the !description command at any level| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **commandPublicOwn** | Permission to use the !public command itself| (Enabled by default) [0: Disabled / 1: Enabled] |
-| **commandPublicAll** | Permission to use the !public command at any level| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **commandUnlistOwn** | Permission to use the !unlist command itself| (Enabled by default) [0: Disabled / 1: Enabled] |
-| **commandUnlistAll** | Permission to use the !unlist command at any level| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **commandSharecpOwn** | Permission to use the !sharecp command itself| (Enabled by default) [0: Disabled / 1: Enabled] |
-| **commandSharecpAll** | Permission to use the !sharecp command at any level| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **commandSongOwn** | Permission to use the !song command itself| (Enabled by default) [0: Disabled / 1: Enabled] |
-| **commandSongAll** | Permission to use the !song command at any level| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **profilecommandDiscord** | Permission to use the !discord command itself| (Enabled by default) [0: Disabled / 1: Enabled] |
-| **actionRateDemon** | Permission to set a demon difficult via "Rate demon" button in the game| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **actionRateStars** | Permission to rate a level via "Suggest stars" or "Rate stars" button in the game| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **actionRateDifficulty** | Permission to set level difficult via "Rate difficult" button in the game| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **actionRequestMod** | Permission to obtain moderator permission and moderator buttons via "req" button in the game| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **actionSuggestRating** | Permission to create star suggestions| (you can view that in PHPMyAdmin "suggest" table or suggestList.php in tools)| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **actionDeleteComment** | Permission to delete comments on users or levels in the game| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **toolLeaderboardsban** | Permission to ban/unban user via leaderboardsBan.php/leaderboardsUnban.php in tools| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **toolPackcreate** | Permission to create map packs via packCreate.php in tools| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **toolQuestsCreate** | Permission to create quests via addQuests.php in tools| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **toolModactions** | Permission to display moderator account activity publicly via tools or dashboard| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **toolSuggestlist** | Permission to view level suggest via suggestList.php in tools | (Disabled by default) [0: Disabled / 1: Enabled] |
-| **dashboardModTools** | Permission currently deprecated | (0 by default)
-| **modipCategory** | Place a [category ID](create-modip.md) | (from the "modipperms" table)
-| **isDefault** | Determine if the role applies to all players by default| (Disabled by default) [0: Disabled / 1: Enabled] |
-| **commentColor** | Place a RGB comment color | (000,000,000 by default) (RGB format)
-| **modBadgeLevel** | Place a badge level | (None by default) [0: None / 1: Moderator / 2: Elder Moderator / Any number] |
-
+| Name                      | Information                                                                                                                                                                                                | Args                                                                                                                                                              |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **roleID**                | Add a unique number to the role                                                                                                                                                                            | (optional, auto-generated)                                                                                                                                        |
+| **priority**              | <p>Priority number <em>(ascending)</em> to determine which role is visible in the game and what permissions user will have in the GDPS<br>(This is important if multiple roles are assigned to a user)</p> | A number                                                                                                                                                          |
+| **roleName**              | Name that you will give to the role                                                                                                                                                                        | Text (optional)                                                                                                                                                   |
+| **commandRate**           | Permission to use the !rate command                                                                                                                                                                        | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **commandFeature**        | Permission to use the !feature command                                                                                                                                                                     | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **commandEpic**           | Permission to use the !epic command                                                                                                                                                                        | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **commandUnepic**         | Permission to use the !unepic command                                                                                                                                                                      | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **commandVerifycoins**    | Permission to use the !verifycoins command                                                                                                                                                                 | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **commandDaily**          | Permission to use the !daily command                                                                                                                                                                       | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **commandWeekly**         | Permission to use the !weekly command                                                                                                                                                                      | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **commandDelete**         | Permission to use the !delet command                                                                                                                                                                       | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **commandSetacc**         | Permission to use the !setacc command                                                                                                                                                                      | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **commandRenameOwn**      | Permission to use the !rename command itself                                                                                                                                                               | <p>(<mark style="color:green;">Enabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                       |
+| **commandRenameAll**      | Permission to use the !rename command in any level                                                                                                                                                         | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **commandPassOwn**        | Permission to use the !pass command itself                                                                                                                                                                 | <p>(<mark style="color:green;">Enabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                       |
+| **commandPassAll**        | Permission to use the !pass command in any level                                                                                                                                                           | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **commandDescriptionOwn** | Permission to use the !description command itself                                                                                                                                                          | <p>(<mark style="color:green;">Enabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                       |
+| **commandDescriptionAll** | Permission to use the !description command in any level                                                                                                                                                    | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **commandPublicOwn**      | Permission to use the !public command itself                                                                                                                                                               | <p>(<mark style="color:green;">Enabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                       |
+| **commandPublicAll**      | Permission to use the !public command in any level                                                                                                                                                         | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **commandUnlistOwn**      | Permission to use the !unlist command itself                                                                                                                                                               | <p>(<mark style="color:green;">Enabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                       |
+| **commandUnlistAll**      | Permission to use the !unlist command in any level                                                                                                                                                         | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **commandSharecpOwn**     | Permission to use the !sharecp command itself                                                                                                                                                              | <p>(<mark style="color:green;">Enabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                       |
+| **commandSharecpAll**     | Permission to use the !sharecp command in any level                                                                                                                                                        | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **commandSongOwn**        | Permission to use the !song command itself                                                                                                                                                                 | <p>(<mark style="color:green;">Enabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                       |
+| **commandSongAll**        | Permission to use the !song command at any level                                                                                                                                                           | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **profilecommandDiscord** | Permission to use the !discord command on the profile. Currently only usable with Cvolton's bot.                                                                                                           | <p>(<mark style="color:green;">Enabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                       |
+| **actionRateDemon**       | Permission to set a demon difficult via "Rate demon" button in the game                                                                                                                                    | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **actionRateStars**       | Permission to rate a level via "Suggest stars" or "Rate stars" button in the game                                                                                                                          | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **actionRateDifficulty**  | Permission to set level difficult via "Rate difficult" button in the game                                                                                                                                  | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **actionRequestMod**      | Permission to obtain moderator permission and moderator buttons via "req" button in the game                                                                                                               | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **actionSuggestRating**   | <p>Permission to create rating suggestions.<br>Suggestions will be sent into the <code>suggest</code> table and be visible in suggestList.php in the GDPS Tools page.</p>                                  | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **actionDeleteComment**   | Permission to delete comments on users or levels in the game                                                                                                                                               | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **toolLeaderboardsban**   | Permission to ban/unban user via leaderboardsBan.php/leaderboardsUnban.php in tools                                                                                                                        | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **toolPackcreate**        | Permission to create map packs via packCreate.php in tools                                                                                                                                                 | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **toolQuestsCreate**      | Permission to create quests via addQuests.php in tools                                                                                                                                                     | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **toolModactions**        | Permission to display moderator account activity publicly via tools or dashboard                                                                                                                           | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **toolSuggestlist**       | Permission to view level suggest via suggestList.php in tools                                                                                                                                              | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **dashboardModTools**     | Permission currently deprecated                                                                                                                                                                            | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **modipCategory**         | Place a [category ID](create-modip.md)                                                                                                                                                                     | an ID the "modipperms" table; leave it at 0 to not specify anything                                                                                               |
+| **isDefault**             | Determine if the role applies to all players by default                                                                                                                                                    | <p>(<mark style="color:red;">Disabled</mark> by default)<br>[0: Disabled / 1: Enabled]</p>                                                                        |
+| **commentColor**          | Place a RGB comment color                                                                                                                                                                                  | (<mark style="color:red;">`000`</mark>`,`<mark style="color:green;">`000`</mark>`,`<mark style="color:blue;">`000`</mark> by default) RGB format                  |
+| **modBadgeLevel**         | Place a badge level                                                                                                                                                                                        | <p>(<mark style="color:yellow;">None</mark> by default)<br>0: No badge<br>1: Moderator<br>2: Elder Moderator<br>3+: Only available through game modifications</p> |
 
 ## Creating a role
 
-Learn to access PHPMyAdmin: 🔐 [Accessing to phpMyAdmin](site-structure.md)
+Learn to access phpMyAdmin: 🔐 [Accessing to phpMyAdmin](site-structure.md)
 
-Learn PHPMyAdmin structure: 🔐 [Site Structure](site-structure.md)
+Learn phpMyAdmin structure: 🔐 [Site Structure](site-structure.md)
 
-1. Access to your PHPMyAdmin database and Look for "roles".
+1. Access to your phpMyAdmin database and Look for "roles".
 2. Open the insert tab.
 3. Fill out all fields correctly.
 4. Click on "Go".
-5. You have created your role correctly!
 
 ## Trivia
 
-- In the "commentColor" column you can also use the HEX color format instead of RGB but it is not recommended.
-- The "dashboardModTools" is the only column currently unused.
+* In the "commentColor" column you can also use the HEX color format instead of RGB but it is not recommended.
+* The "dashboardModTools" is the only column currently unused.
