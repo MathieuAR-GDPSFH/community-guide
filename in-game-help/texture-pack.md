@@ -4,6 +4,7 @@ description: >-
 ---
 
 # Texture Packs
+By: priestytheplushie 
 
 This guide will help you create your own Texture pack for Geometry Dash, This guide works for both normal Geometry Dash and your GDPS. This guide is updated for 2.11 and **NOT** 2.2
 
