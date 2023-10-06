@@ -23,7 +23,7 @@ There are 3 different methods you can use to make your Texture pack, there is th
 
 This method is for GDPS owners who manage their GDPS on mobile, You can use the PC method to make packs for your Mobile device, so this method is **only** required if you mamage your GDPS on your mobile device.
 
-NOTE: The default Geometry Dash APK cannot run "High" or UHD (Ultra High Detail) textures, should should edit the HD/Default files instead
+NOTE: The default Geometry Dash APK cannot run "High" or UHD (Ultra High Detail) textures, you should edit the HD/Default files instead
 
 You will need:
 
