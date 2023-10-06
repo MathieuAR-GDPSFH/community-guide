@@ -14,7 +14,7 @@ NOTE: You cannot "add" textures to the game (without a mod) but you can **replac
 
 ## How Geometry Dash Textures Work
 
-Before we can get started making our own pack, we must first learn how RobTop made textures work in Geometry Dash. In Geometry Dash textures are stored on spritesheets, which is a giant image of a ton of textures on it, these spritesheets are accompanied with a .plist file that tells the game **where** the textures are on the spritesheet. The android and second PC method in this guide do **NOT** touch the .plist files, while the first pc method does. Keep this information in mind while making your pack
+Before we can get started making our own pack, we must first learn how RobTop made textures work in Geometry Dash. In Geometry Dash textures are stored on spritesheets, which is a giant image of a ton of textures on it, these spritesheets are accompanied with a .plist file that tells the game **where** the textures are on the spritesheet. The android and first PC method in this guide do **NOT** touch the .plist files, while the second pc method does. Keep this information in mind while making your pack
 
 ## Methods
 
