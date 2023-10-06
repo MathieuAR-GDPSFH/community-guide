@@ -136,7 +136,7 @@ Now, open Texture Splitter and merge all the spritesheet folders, if you get a p
 
 ### Step 5. Save the pack 
 
-Now, move the the files in the texture folder into the Resources folder (The spritesheets and .plist files ONLY) and than run the game, and your done! the texture pack should be open kn game now! 
+Now, move the the files in the texture folder into the Resources folder (The spritesheets and .plist files ONLY) and than run the game, and your done! the texture pack should be open the game now! 
 
 ## End of Guide 
 
