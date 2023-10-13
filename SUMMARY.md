@@ -12,6 +12,7 @@
   * [Level Commands](in-game-help/level-commands.md)
   * [Remove 6 Digit Song Limit Android](in-game-help/remove-6digit-song-limit-android.md)
   * [Remove Android Anticheat](in-game-help/Remove-Android-Anticheat.md)
+  * [Texture Pack](in-game-help/texture-pack.md)
 
 - Phpmyadmin
   * [Actions Explain](phpmyadmin/actions-explain.md)
