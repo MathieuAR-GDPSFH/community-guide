@@ -446,3 +446,4 @@ You do not need to know PHP to use phpMyAdmin.
 Guide made by Nojnis, with help from Wyliemaster's gd-docs documentation, [Wyliemaster's GD documentation here](https://github.com/Wyliemaster/gddocs) and thanks to Migmatos for helping with a couple columns.
 
 PS: I will update the information about the functions of columns I didn't know about when I find out.
+(If you have any more questions, ping Nojnis is the discord.)
