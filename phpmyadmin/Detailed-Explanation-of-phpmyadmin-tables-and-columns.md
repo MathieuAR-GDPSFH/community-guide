@@ -1,5 +1,5 @@
 ---
-description: An very lengthy, but in-depth explanation of the PhpMyAdmin tables
+description: A very lengthy, but in-depth explanation of the PhpMyAdmin tables
 ---
 
 # In-depth explanation of PhpMyAdmin tables and columns
@@ -9,6 +9,13 @@ An example of a table is the accounts table.
 
 Columns: Columns are columns in PhpMyAdmin tables that make the tables function for the server.\
 An example of a column is accountID in the accounts table.
+
+## Access the PhpMyAdmin tables
+    
+If you are confused on how to access all the tables, heres how:
+First, after logging in, click the "+" on the side next to gdps_(gdpsname).
+To access the tables, click the text of the name of the tables.
+(On phone, enable desktop site for PhpMyAdmin to work properly.)
 
 ### Acccomments: This table displays all the account comments players have made on their profiles.
 
@@ -439,3 +446,4 @@ You do not need to know PHP to use phpMyAdmin.
 Guide made by Nojnis, with help from Wyliemaster's gd-docs documentation, [Wyliemaster's GD documentation here](https://github.com/Wyliemaster/gddocs) and thanks to Migmatos for helping with a couple columns.
 
 PS: I will update the information about the functions of columns I didn't know about when I find out.
+(If you have any more questions, ping Nojnis is the discord.)
