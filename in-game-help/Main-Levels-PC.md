@@ -31,3 +31,5 @@ Go to your GD resources folder and open "leveldata.plist" with Notepad ++, now r
 ![Notepad ++](../.gitbook/assets/ml-npp.png)
 
 Now repeat this for all the levels you want to add, then open GD to test if it worked.
+
+*If you need any help, feel free to dm me (starmor) on Discord!*
