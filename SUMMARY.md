@@ -32,6 +32,7 @@
 
 - Misc
   * [How To Use Tools](misc/how-to-use-tools.md)
+  * [Making An Old GDPS Version](misc/making-an-old-gdps-version.md)
 
 - Backend
   * [How Autoban Php Works](backend/how-autoban-php-works.md)
