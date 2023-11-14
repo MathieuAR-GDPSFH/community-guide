@@ -29,7 +29,7 @@ Now save it in a folder where you can find it and start editing the file using O
 
 ## Method 1, Hex Editing.
 This is now the complex part.
-- Step 1: Open up a base64 encoder, and type in "www.boomlongs.com" and encode it.
+- Step 1: Open up a base64 encoder, and type in "www.boomlings.com" and encode it.
 - Step 2: search for the encoded text in the hex code.
 - Step 3: input your gdps site name. For example:
 www.examplegdps.com
@@ -46,7 +46,7 @@ This process is pretty much the same as the android version, but a little less s
 
 ## Method 2 (PC MASTER RACE edition)
 - Step 1: Open up "GeometryDash.exe" using HxD or whatever app you use.
-- Step 2: Open up a base64 encoder, and type in "www.boomlongs.com" and encode it.
+- Step 2: Open up a base64 encoder, and type in "www.boomlings.com" and encode it.
 - Step 3: search for the encoded text in the hex code.
 - Step 4: Input your gdps site name.
 - Step 5: Replace every instance of the encoded boomlings.com links with your new gdps links.
