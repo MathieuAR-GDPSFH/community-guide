@@ -36,6 +36,23 @@ www.examplegdps.com
 - step 4: Replace every instance of the encoded boomlings.com links with your new gdps links.
 - Step 5: Replace it with the new one in APK editor and all should be good.
 
+This process will work for every version on android.
+
 # GDPS' Over 1.8
 
-Now its the PC era for gd and  
+Now its the PC era for gd and 1.9 and 2.0 came out (As of writing this guide 2.1 is the latest version.)
+
+This process is pretty much the same as the android version, but a little less steps.
+
+## Method 2 (PC MASTER RACE edition)
+- Step 1: Open up "GeometryDash.exe" using HxD or whatever app you use.
+- Step 2: Open up a base64 encoder, and type in "www.boomlongs.com" and encode it.
+- Step 3: search for the encoded text in the hex code.
+- Step 4: Input your gdps site name.
+- Step 5: Replace every instance of the encoded boomlings.com links with your new gdps links.
+- Step 6: Save The file and open it up.
+
+# Guide End.
+Well, thats the end of the guide! if you will have issues i will try my best to help in [#community-help](https://discord.com/channels/1087797698771566644/1088950381209460818) if you have issues!
+
+This has been a person, Guide has ended.
