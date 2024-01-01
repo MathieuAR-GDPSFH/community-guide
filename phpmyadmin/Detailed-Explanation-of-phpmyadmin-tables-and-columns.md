@@ -140,7 +140,7 @@ To access the tables, click the text of the name of the tables.
 * level2: The second level.
 * level3: The third level.
 * level4: The fourth level.
-*   level5: The Fifth level.
+* level5: The Fifth level.
 
     (Note: The levels will be ordered by difficulty so if you put a 4 star as level1 and a 2 star as level2, level 1 will be the 2 star.)
 
@@ -183,7 +183,7 @@ To access the tables, click the text of the name of the tables.
     <mark style="color:red;">**DO NOT SET starCoins TO 2 OR HIGHER AS IT WILL BREAK YOUR LEVELS TAB!**</mark>
 * starFeatured: This indetifies whether the level is featured or not. (0 = not featured; 1 = featured.)
 * starHall: This identifies whether the level goes into the "Hall of Fame" tab or not. 0 = Not in Hall of Fame; 1 = In Hall of Fame.
-* starEpic: This identifies whether the level is epic rated or not. (0 = Not epic rated; 1 = The level is epic rated; 2 = The level is legendary rated in 2.2; 3 = mythic rating on the level)
+* starEpic: This identifies whether the level is epic rated or not. (0 = Not epic rated; 1 = The level is epic rated; 2 = The level is legendary rated in 2.2; 3 = mythic/godlike rating on the level in 2.2 as well)
 * starDemonDiff: This tells you what demon difficulty the level is rated. (0 = Non-demon rated levels; 1 = Easy demon; 2 = Medium Demon; 3 = Hard Demon; 4 = Insane Demon; 5 = Extreme Demon.)
 * userID: The ID of the user who uploaded the level.
 * extID: The account ID of the user who uploaded the level.
@@ -196,6 +196,7 @@ To access the tables, click the text of the name of the tables.
 * unlisted2: Tells you if the level is unlisted and availible for public as long as users have the ID. (I think I'm not 100% sure yet.)
 * wt: I am not sure (I will find out and update this.)
 * wt2: also not sure.
+* ts: Not sure
 * settingsString: Unused.
 
 ### Levelscores: This table lists the percentages players have got on levels.
@@ -233,7 +234,11 @@ To access the tables, click the text of the name of the tables.
 * likes: The amount of likes the list has
 * starFeatured: This tells you if the list is featured or not. (0 = not featured; 1 = featured.)
 * starStars: This tells you how many diamonds the list gives you when you complete it.
-* listlevels: this tells you the IDs of the leveld
+* listlevels: this tells you the IDs of the levels in the list.
+* uploadDate: This tells you the date the level was uploaded. (it is in unix timestamp format so using an online converter will tell you the actual date in regular form)
+* updateDate: This tells your the date the level was updated on (if it was) It is also in unix timestamp format so you can use an online converter to get the date in regular form.
+* original: This tells you the ID of the list that the current list was copied from (if it was copied)
+* unlisted: This tells you if the list is unlisted or listed. (0 = listed aka public;  = unlisted)
 
 ### Mappacks: This table lists the map packs that are created in the GDPS and allows you to create Map packs.
 
@@ -311,6 +316,12 @@ To access the tables, click the text of the name of the tables.
 * accountID: The ID of the moderator's account.
 * modIPCategory: This will be the ID of the modipperms category you set. (If you made a role that has modIPPerms and the value is set to the ID of the category, it will appear under the modips table.)
 
+### Platscores: This table tells you all the leaderboard scores on platformer levels in the GDPS.
+* ID: The ID of the account who got the score.
+* levelID: The ID of the level the score was on
+* time: The time it took for the user to complete the level.
+* points: The points the user got on that level.
+* timestamp: The date the user got the score on (it is in unix timestamp format so you can use an online converter to get the actual date in regular format)
 ### Quests: This table lists all the created quests in the GDPS and allows you to make quests.
 
 * ID: The unique ID of the quest.
@@ -374,7 +385,7 @@ To access the tables, click the text of the name of the tables.
 * modipCategory: This identifies whether the role gives you access to the free copy permission. (You put the category ID of the modip category you created in modipperms.)
 * isDefault: I am not sure about what this does. (It does not make the permissions of the role default to any member.)
 * commentColor: This displays what colour the comments will be if you have this role. (It is in RGB color code)
-* modBadgeLevel: This is the level of the moderator badge. (0 = no badge; 1 = Normal Moderator badge; 2 or higher = Elder Moderator badge.)
+* modBadgeLevel: This is the level of the moderator badge. (0 = no badge; 1 = Normal Moderator badge; 2 = Elder Moderator badge; 3 = Leaderboard moderator badge Note: Putting this badge as the role badge doesn't allow you to press req in-game as req will infinitely load and never succeed.)
 
 ### Songs: This table lists all the custom uploaded songs and the songs used in the GDPS.
 
@@ -428,7 +439,7 @@ To access the tables, click the text of the name of the tables.
 * IP: This is the IP address of the person who made the user.
 * lastPlayed: This is the date and time of the last time the person went into the GDPS, in unix timestamp format. (You can use an online converter to get the exact date and time.)
 * diamonds: This is the amount of diamonds the user has collected.
-* moons: Unused for 2.1. This is for 2.2.
+* moons: Amount of moons the user collected (2.2)
 * orbs: This is the amount of orbs the user has collected.
 * completedLvls: This shows the amount of levels the user has completed.
 * accSpider: This is the unique ID of the user's spider. (I also don't know why accSpider is so far away from the other icons.)
