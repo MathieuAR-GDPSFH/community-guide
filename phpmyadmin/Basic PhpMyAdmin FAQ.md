@@ -10,7 +10,7 @@
 
 - This is normal for anybody who hasn't made a GDPS before or used PMA(PhpMyAdmin) before.
 
-Hopefully the next section can explain what all those columns and indexes do clearly enough for you.
+  Hopefully the next section can explain what all those columns and indexes do clearly enough for you.
 
 # Explanation of the functions of the columns and indexes
 
@@ -33,7 +33,7 @@ Now lets move on to the structure tab!
  ![image](https://github.com/MathieuAR-GDPSFH/community-guide/assets/128159902/70eb5a06-8705-4d9d-8059-afd175cf2ce9)
 
  - Now I will tell you the columns you can ignore or do some extra research about these things. Ignore Type, Collation and Attributes as these aren't really necessary for using pma for just managing, editing and deleting data on the database.
-- The column NULL means if the value is used or not, so if its yes, then that column isn't used. The next column, defualt either can have a value or can be none or NULL. usually the default value in the levels table, if there is one is 0 other tables maybe different.
+- The column NULL means if the value is used or not, so if its yes, then that column isn't used. The next column, defualt either can have a value or can be none or NULL. Usually the default values in the levels table is maybe different to other tables.
 - Comments are any extra information given about that column. Extra is any extra information, for levels table the level IDs are set to auto increment which means they will +1 to the number of the last ID of the last uploaded
 - level, so if last level uploaded was ID 45, next will be 46 so IDs can be unique to every level.
 - Note: DO NOT CLICK DROP FOR ANYTHING IN PMA AS IT WILL DELETE THAT COLUMN OR TABLE! (unless you are really sure about it, don't click it)
@@ -155,6 +155,14 @@ Hope this helps you understand pma even more!
 ## How can I see an account's password as my friend forgot their password?
 
 - You can't see their password, but you can reset it by simply going to https://bcrypt.online/ and typing in a password for them to change after and replacing the password column with new hash (yes the random symbols is called password hash.)
+  Note: Click edit on their account, and under password, delete the hash already there and replace with new.
+
+
+## How can i fix 300 downloads 100 likes?
+
+- There is already a community guide [here](phpmyadmin/change-default-downloads-likes.md)
+
+  
 
 
 
