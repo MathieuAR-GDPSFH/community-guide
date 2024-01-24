@@ -162,14 +162,33 @@ Hope this helps you understand pma even more!
 
 - There is already a community guide [here](phpmyadmin/change-default-downloads-likes.md)
 
-  
+## My levels don't load, but searching by level ID works
 
+- This is because of the !rate command being used incorrectly, example: !rate demon 10 10 10 10, the 10 will set starCoins to 10 (anything above 1 will do the same), which makes levels not display (not sure why).
 
+- You can fix it by following this [guide](/phpmyadmin/elegant-sql-fixes) (remember to run the SQL code in the SQL tab and select a database before running the code otherwise it won't work)
 
+## I was raided and now there are loads of levels and accounts, what do I do?
 
+- If you were raided, you can do the following:
+### Delete raid levels
+- first run specific SQL code: ```DELETE FROM `levels` WHERE levelID BETWEEN (ID of first raid level) AND (ID of last raid level)```
+- so an example of first raid level Id can be 300, example of last is 5000, so code would be ```DELETE FROM `levels` WHERE levelID BETWEEN 300 AND 5000``` but this is only an example so it won't be the smae for you!
+### Delete raid accounts
 
+- The code is basically the same as levels, but instead it is: ```DELETE FROM `accounts` WHERE accountID BETWEEN (first raid accountid) AND (last raid accountid)```
+- Example would be: ```DELETE FROM `accounts` WHERE accountID BETWEEN 300 AND 5000``` but it will be different for your GDPS.
 
+### Delete raid account comments
+- The code again, is basically the same for acc comments: ```DELETE FROM `acccomments` WHERE commentID BETWEEN (first raid comment id) AND (last raid comment id)```
+- Example: ```DELETE FROM `acccomments` WHERE commentID BETWEEN 300 AND 5000``` (this will be different IDs to your GDPS).
+- (Note: To find out the content of the account comments go to [this website](https://base64decode.org) and paste the text from content column)
 
+### Delete raid level comments
+- The code is almost the same as the other SQL code: ```DELETE FROM `comments` WHERE commentID BETWEEN (first raid comment) AND (last raid comment)```
+- Example: ```DELETE FROM `comments` WHERE commentID BETWEEN 300 AND 5000``` but this will be different to your GDPS so don't [aste this code in as is without changing IDs.
+- (Note: To find out the content of the comments go to [this website](https://base64decode.org) and paste the text from content column)
 
+Thanks for reading this guide and I hope these helped!
 
- 
+Also if you have any more suggestions, then ping Nojnis in the discord server.
