@@ -34,8 +34,7 @@ Now lets move on to the structure tab!
 
  - Now I will tell you the columns you can ignore or do some extra research about these things. Ignore Type, Collation and Attributes as these aren't really necessary for using pma for just managing, editing and deleting data on the database.
 - The column NULL means if the value is used or not, so if its yes, then that column isn't used. The next column, defualt either can have a value or can be none or NULL. Usually the default values in the levels table is maybe different to other tables.
-- Comments are any extra information given about that column. Extra is any extra information, for levels table the level IDs are set to auto increment which means they will +1 to the number of the last ID of the last uploaded
-- level, so if last level uploaded was ID 45, next will be 46 so IDs can be unique to every level.
+- Comments are any extra information given about that column. Extra is any extra information, for levels table the level IDs are set to auto increment which means they will +1 to the number of the last ID of the last uploaded level, so if last level uploaded was ID 45, next will be 46 so IDs can be unique to every level.
 - Note: DO NOT CLICK DROP FOR ANYTHING IN PMA AS IT WILL DELETE THAT COLUMN OR TABLE! (unless you are really sure about it, don't click it)
 - under more, there are a few extra buttons such as unique, which will make that column unique but you can do extra research about that if you wanna know more.
 
@@ -154,7 +153,7 @@ Hope this helps you understand pma even more!
 
 ## How can I see an account's password as my friend forgot their password?
 
-- You can't see their password, but you can reset it by simply going to https://bcrypt.online/ and typing in a password for them to change after and replacing the password column with new hash (yes the random symbols is called password hash.)
+- You can't see their password, but you can reset it by simply going to https://bcrypt.online/ and typing in a password for them to change after(use cost factor 10) and replacing the password column with new hash (yes the random symbols is called password hash.)
   Note: Click edit on their account, and under password, delete the hash already there and replace with new.
 
 
@@ -173,7 +172,7 @@ Hope this helps you understand pma even more!
 - If you were raided, you can do the following:
 ### Delete raid levels
 - first run specific SQL code: ```DELETE FROM `levels` WHERE levelID BETWEEN (ID of first raid level) AND (ID of last raid level)```
-- so an example of first raid level Id can be 300, example of last is 5000, so code would be ```DELETE FROM `levels` WHERE levelID BETWEEN 300 AND 5000``` but this is only an example so it won't be the smae for you!
+- so an example of first raid level Id can be 300, example of last is 5000, so code would be ```DELETE FROM `levels` WHERE levelID BETWEEN 300 AND 5000``` but this is only an example so it won't be the same for you!
 ### Delete raid accounts
 
 - The code is basically the same as levels, but instead it is: ```DELETE FROM `accounts` WHERE accountID BETWEEN (first raid accountid) AND (last raid accountid)```
