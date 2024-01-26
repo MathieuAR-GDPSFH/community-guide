@@ -10,7 +10,6 @@ I will be using the levels table as an example.
 
 If you see something like int(11) by type next to something like gameVersion, do not worry about changing this as this is default with your GDPS database.
  If you change it to varchar or anything different it could break your GDPS. 
- (I will add an extra technical section for people who will understand it.)
 
 # Structure tab function
 
@@ -33,8 +32,5 @@ There are tons of things you can do in the structure tab.
 
 Here is an example: You can change "default" to 0 for likes or downloads or any other columns. (if default is "none" you might not want to change that.)
 
-
-# Complex explanation of type, collation and atttributes
-
-These are the following types and what they are:
--int(11)
+# What does stuff like int(11) mean?
+- That stuff is the more complex side of PhpMyAdmin, you don't have to know exactly what they mean but if you want to, then you could research about all of it.
