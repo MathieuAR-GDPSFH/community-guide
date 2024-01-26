@@ -34,3 +34,6 @@ Here is an example: You can change "default" to 0 for likes or downloads or any 
 
 # What does stuff like int(11) mean?
 - That stuff is the more complex side of PhpMyAdmin, you don't have to know exactly what they mean but if you want to, then you could research about all of it.
+
+If you have any extra questions/you don't understand something in this guide, ping Nojnis in the discord server and I will update the guide as well to make something you dont understand clearer! 
+This is just an overview of the structure tab, it can be very complicated depending on the use of it.
