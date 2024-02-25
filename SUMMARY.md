@@ -29,6 +29,7 @@
   * [Give Permissions](phpmyadmin/give-permissions.md)
   * [Placing Roles](phpmyadmin/placing-roles.md)
   * [Site Structure](phpmyadmin/site-structure.md)
+  * [PhpMyAdmin FAQ](phpmyadmin/basic-pma-faq.md)
 
 - Misc
   * [How To Use Tools](misc/how-to-use-tools.md)
